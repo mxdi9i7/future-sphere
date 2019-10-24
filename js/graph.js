@@ -20,7 +20,7 @@ const loadCourseDetail = (e) => {
     }),
   };
   fetch(apiEndpoint, options).then((res) => res.json()).then((data) => {
-    console.log(data.data.course);
+    console.log(data);
   });
 };
 
