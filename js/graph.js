@@ -1,4 +1,6 @@
 import { getCourseQuery } from '/js/queries/courses.js';
+import { renderContentToCourse } from '/js/dom.js';
+
 const apiEndpoint = 'https://graphql.datocms.com/preview';
 const token = '7d620000536448fe182e5cfab7e4aa';
 const headers = {
@@ -20,7 +22,9 @@ const loadCourseDetail = (e) => {
     }),
   };
   fetch(apiEndpoint, options).then((res) => res.json()).then((data) => {
-    console.log(data);
+    console.log(data.data.course);
+    const { course } = data.data;
+    renderContentToCourse(course);
   });
 };
 
