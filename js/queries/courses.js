@@ -1,6 +1,13 @@
 export const getCourseQuery = (slug) => `query MyQuery {course(filter: {slug: {eq: "${slug}"}}) {
     desc
     title
+    highlights {
+        title
+        desc
+        image {
+            url
+        }
+    }
     syllabus {
         title
         desc

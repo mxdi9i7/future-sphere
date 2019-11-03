@@ -78,7 +78,7 @@ $('#header').append(`
                 id="navBar">
                 <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                   <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
+                    <a href="/" class="nav-link px-0">
                       首页
                     </a>
                   </li>
@@ -88,8 +88,8 @@ $('#header').append(`
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
-                      讲师团队
+                    <a href="/team.html" class="nav-link px-0">
+                      关于我们
                     </a>
                   </li>
                   <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
@@ -108,24 +108,23 @@ $('#header').append(`
                           <h4 class="h5 text-uppercase g-font-weight-600">少儿兴趣 For 11 - 18</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站编程 | Web
-                                Programming</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站编程 1 | 
+                                Designing Websites</a>
+                            </li>
+
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">网站编程 2 | Programming in Javascript</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">服务器编程 | Server
-                                Programming</a>
+                              <a class="g-color-main g-color-main--hover" href="#">网站编程 3 | Front End Engineering</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">网站编程 4 | Back End
+                                Development</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">App编程 | Mobile
                                 App Programming</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">计算机科学 | Computer
-                                Science</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">游戏设计 | Game
-                                Programming</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">交互设计 |
@@ -187,16 +186,6 @@ $('#header').append(`
                       </div>
                     </div>
                     <!-- End Mega Menu -->
-                  </li>
-                  <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
-                      学费
-                    </a>
-                  </li>
-                  <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
-                      精彩活动
-                    </a>
                   </li>
                 </ul>
               </div>
