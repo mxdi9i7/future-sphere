@@ -1,43 +1,24 @@
-export const getCourseQuery = (slug) => `query MyQuery {course(filter: {slug: {eq: "${slug}"}}) {
-    desc
+export const getCourseQuery = slug => `query MyQuery {course(filter: {slug: {eq: "${slug}"}}) {
     title
-    highlights {
-        title
-        desc
-        image {
-            url
-        }
-    }
-    syllabus {
-        title
-        desc
-    }
+    briefintro
+    desc
+    goal
+    content
     hero {
         url
     }
-    tuition
-    schedule {
-        title
-        start
-        end
-        dayOfTheWeek
-        hours
-    }
-    instructor {
+    class1{
         name
-        avatar {
-            url
-        }
-        desc
-        email
-        teaches {
-            slug
-            title
-        }
+        startdate
+        deadline
+        seatleft
     }
-    faq {
-        question
-        answer
+    class2{
+        name
+        startdate
+        deadline
+        seatleft
     }
+    tuition
     slug
   }}`;
