@@ -58,7 +58,16 @@ $("#header").append(`
                         <div>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">零基础全栈工程师成长班</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站开发基础</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-2">网站开发进阶</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-3">后段工程开发</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-4">前端工程开发</a>
                             </li>
                           </ul>
                         </div>
