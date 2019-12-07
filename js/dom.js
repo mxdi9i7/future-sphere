@@ -58,6 +58,9 @@ const renderSyllabus = (syllabus) => {
         </div>
         `);
   });
+<<<<<<< HEAD
+>>>>>>> parent of 00a277a... aupdates
+=======
 >>>>>>> parent of 00a277a... aupdates
 };
 

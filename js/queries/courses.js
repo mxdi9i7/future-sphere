@@ -1,11 +1,14 @@
 export const getCourseQuery = slug => `query MyQuery {course(filter: {slug: {eq: "${slug}"}}) {
     title
 <<<<<<< HEAD
+<<<<<<< HEAD
     briefintro
     desc
     goal
     content
 =======
+=======
+>>>>>>> parent of 00a277a... aupdates
     syllabus {
         title
         desc

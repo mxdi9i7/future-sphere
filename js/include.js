@@ -50,6 +50,9 @@ $("#header").append(`
                   <li class="nav-item g-mx-20--lg">
                     <a href="#" class="nav-link px-0">
                       讲师团队
+<<<<<<< HEAD
+>>>>>>> parent of 00a277a... aupdates
+=======
 >>>>>>> parent of 00a277a... aupdates
                     </a>
                   </li>
@@ -69,8 +72,11 @@ $("#header").append(`
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站开发基础</a>
 =======
+=======
+>>>>>>> parent of 00a277a... aupdates
                               <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站编程 | Web
                                 Programming</a>
                             </li>
