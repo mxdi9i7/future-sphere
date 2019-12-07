@@ -34,13 +34,23 @@ $("#header").append(`
                 id="navBar">
                 <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                   <li class="nav-item g-mx-20--lg">
-                    <a href="/" class="nav-link px-0">
+                    <a href="#" class="nav-link px-0">
                       首页
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
+<<<<<<< HEAD
                     <a href="/team.html" class="nav-link px-0">
                       关于我们
+=======
+                    <a href="#" class="nav-link px-0">
+                      为什么要学编程？
+                    </a>
+                  </li>
+                  <li class="nav-item g-mx-20--lg">
+                    <a href="#" class="nav-link px-0">
+                      讲师团队
+>>>>>>> parent of 00a277a... aupdates
                     </a>
                   </li>
                   <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
@@ -58,7 +68,74 @@ $("#header").append(`
                         <div>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+<<<<<<< HEAD
                               <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站开发基础</a>
+=======
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站编程 | Web
+                                Programming</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">服务器编程 | Server
+                                Programming</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">App编程 | Mobile
+                                App Programming</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">计算机科学 | Computer
+                                Science</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">游戏设计 | Game
+                                Programming</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">交互设计 |
+                                Interactive Design</a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4 class="h5 text-uppercase g-font-weight-600">求职转行 For 18 - 35</h4>
+                          <ul class="list-unstyled mb-0">
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-前端 |
+                                Front-End Software Engineer</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-后端 |
+                                Back-End Software Engineer</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-全栈 |
+                                Full-Stack Software Engineer</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">UI设计师 | User
+                                Interface Designer</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">多人商业项目陪练 |
+                                Commercial Project Collaboration</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">求职辅导/模拟面试 |
+                                Interview Preparation</a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <h4 class="h5 text-uppercase g-font-weight-600">其他课程</h4>
+                          <ul class="list-unstyled mb-0">
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">钢琴陪练/考级</a>
+                            </li>
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">动画设计</a>
+>>>>>>> parent of 00a277a... aupdates
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-2">网站开发进阶</a>
@@ -74,6 +151,16 @@ $("#header").append(`
                       </div>
                     </div>
                     <!-- End Mega Menu -->
+                  </li>
+                  <li class="nav-item g-mx-20--lg">
+                    <a href="#" class="nav-link px-0">
+                      学费
+                    </a>
+                  </li>
+                  <li class="nav-item g-mx-20--lg">
+                    <a href="#" class="nav-link px-0">
+                      精彩活动
+                    </a>
                   </li>
                 </ul>
               </div>
