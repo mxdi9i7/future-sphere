@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-const renderContentToCourse = data => {
-  $("#title").text(data.title);
-  $("#title2").text(data.title);
-  $("#briefintro").text(data.briefintro);
-  $("#desc").text(data.desc);
-  $("#goal").text(data.goal);
-  $("#content").text(data.content);
-  $("#hero").css("background-image", `url("${data.hero.url}")`);
-  $("#tuition").text(`$${data.tuition}`);
-  $("#tuition2").text(`$${data.tuition}`);
-  $("#installment").text(`$${Math.round((data.tuition * 1.15) / 6)}/月`);
-=======
 const renderContentToCourse = (data) => {
   $('#title').text(data.title);
   $('#hero').css('background-image', `url("${data.hero.url}")`);
@@ -21,9 +8,13 @@ const renderContentToCourse = (data) => {
   $('#instructorEmail').text(data.instructor.email);
   $('#instructorAvatar').attr('src', data.instructor.avatar.url);
   $('#instructorAvatar').attr('alt', data.instructor.name + ' 讲师介绍');
+  $('#tuition').text(`$${data.tuition}`);
+  $('#installment').text(`$${Math.round(data.tuition * 1.15 / 6)}/月`);
   renderSyllabus(data.syllabus);
+  renderHighlights(data.highlights);
 };
 
+const renderTeaches = (teaches) => {};
 const renderSyllabus = (syllabus) => {
   syllabus.forEach((data, i) => {
     $('#accordion-07').append(`
@@ -42,7 +33,7 @@ const renderSyllabus = (syllabus) => {
                             <i class="fa fa-minus"></i>
                         </span>
                         <span class="g-pa-20">
-                            ${data.title}
+                            第${i + 1}课： ${data.title}
                         </span>
                     </a>
                 </h5>
@@ -58,10 +49,24 @@ const renderSyllabus = (syllabus) => {
         </div>
         `);
   });
-<<<<<<< HEAD
->>>>>>> parent of 00a277a... aupdates
-=======
->>>>>>> parent of 00a277a... aupdates
+};
+
+const renderHighlights = (highlights) => {
+  highlights.forEach((data, i) => {
+    $('#highlights').append(`
+              <div class="col-lg-4">
+                <div class="media">
+                    <div class="d-flex mr-4">
+                        <img src="${data.image.url}" height="60px" />
+                    </div>
+                    <div class="media-body">
+                        <h3 class="h5 g-color-black mb-20">${data.title}</h3>
+                        <p class="g-color-gray-dark-v4">${data.desc}</p>
+                    </div>
+                </div>
+            </div>
+        `);
+  });
 };
 
 export { renderContentToCourse };

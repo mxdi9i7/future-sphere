@@ -1,34 +1,43 @@
-export const getCourseQuery = slug => `query MyQuery {course(filter: {slug: {eq: "${slug}"}}) {
-    title
-<<<<<<< HEAD
-<<<<<<< HEAD
-    briefintro
+export const getCourseQuery = (slug) => `query MyQuery {course(filter: {slug: {eq: "${slug}"}}) {
     desc
-    goal
-    content
-=======
-=======
->>>>>>> parent of 00a277a... aupdates
+    title
+    highlights {
+        title
+        desc
+        image {
+            url
+        }
+    }
     syllabus {
         title
         desc
     }
->>>>>>> parent of 00a277a... aupdates
     hero {
         url
     }
-    class1{
-        name
-        startdate
-        deadline
-        seatleft
-    }
-    class2{
-        name
-        startdate
-        deadline
-        seatleft
-    }
     tuition
+    schedule {
+        title
+        start
+        end
+        dayOfTheWeek
+        hours
+    }
+    instructor {
+        name
+        avatar {
+            url
+        }
+        desc
+        email
+        teaches {
+            slug
+            title
+        }
+    }
+    faq {
+        question
+        answer
+    }
     slug
   }}`;

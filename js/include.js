@@ -1,3 +1,47 @@
+$("#topBar").append(`
+   <div
+        class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
+        <div class="container">
+          <div
+            class="row flex-column flex-md-row align-items-center justify-content-md-end text-uppercase g-font-weight-600 g-color-white g-font-size-13">
+            <div class="col-auto mr-md-auto g-px-15">
+              <i class="icon icon-weather-001 g-font-size-20 g-valign-middle g-mr-10"></i>
+              2019年10月21日 8:21 A.M.
+            </div>
+
+            <div class="col-auto g-px-15">
+              <i class="fa fa-phone g-valign-middle g-mr-5"></i>
+              <a href="tel:16466397087">646-639-7087</a>
+            </div>
+
+            <div class="col-auto g-px-15">
+              <i class="fa fa-map-pin g-valign-middle g-mr-5"></i>
+              <span>28-07 Jackson Ave. Long Island City, NY 11101</span>
+            </div>
+
+            <div class="col-auto g-px-15">
+              <ul class="list-inline mb-0 g-mx-minus-3">
+                <li class="list-inline-item g-valign-middle g-mx-3">
+                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="#">
+                    讲师团队
+                  </a>
+                </li>
+                <li class="list-inline-item g-valign-middle g-mx-3">
+                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="#">
+                    联系我们
+                  </a>
+                </li>
+                <li class="list-inline-item g-valign-middle g-mx-3">
+                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="#">
+                    参观课堂
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+`);
 $("#header").append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
@@ -34,77 +78,66 @@ $("#header").append(`
                 id="navBar">
                 <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                   <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
+                    <a href="/" class="nav-link px-0">
                       首页
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
-<<<<<<< HEAD
                     <a href="/team.html" class="nav-link px-0">
                       关于我们
-=======
-                    <a href="#" class="nav-link px-0">
-                      为什么要学编程？
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
                     <a href="#" class="nav-link px-0">
-                      讲师团队
-<<<<<<< HEAD
->>>>>>> parent of 00a277a... aupdates
-=======
->>>>>>> parent of 00a277a... aupdates
+                      报名公开课
                     </a>
                   </li>
                   <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
                     data-animation-out="fadeOut" data-position="right">
-                    <a id="mega-menu-label-5" class="nav-link g-px-0 g-color-blue" href="#"
-                      aria-haspopup="true" aria-expanded="false">核心课程 
+                    <a id="mega-menu-label-5" class="nav-link g-px-0 g-color-primary" href="#"
+                      aria-haspopup="true" aria-expanded="false">课程介绍
                       <i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-5"></i>
                     </a>
 
                     <!-- Mega Menu -->
                     <div
-                      class="hs-mega-menu u-shadow-v11 g-text-transform-none g-font-weight-400 g-brd-top g-brd-blue g-brd-top-2 g-bg-white g-pa-30 g-mt-17 g-mt-7--lg--scrolling animated hs-position-right fadeOut"
-                      aria-labelledby="mega-menu-label-1" style="display: none;">
+                      class="w-100 hs-mega-menu u-shadow-v11 g-text-transform-none g-font-weight-400 g-brd-top g-brd-primary g-brd-top-2 g-bg-white g-pa-30 g-mt-17 g-mt-7--lg--scrolling animated hs-position-right fadeOut"
+                      aria-labelledby="mega-menu-label-5" style="display: none;">
                       <div class="row">
-                        <div>
+                        <div class="col-lg-4">
+                          <h4 class="h5 text-uppercase g-font-weight-600">七大旗舰课程</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站开发基础</a>
-=======
-=======
->>>>>>> parent of 00a277a... aupdates
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">网站编程 | Web
-                                Programming</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">SE100 网站设计</a>
+                            </li>
+
+                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">SE200 网站编程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">服务器编程 | Server
-                                Programming</a>
+                              <a class="g-color-main g-color-main--hover" href="#">SE300 后端工程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">App编程 | Mobile
-                                App Programming</a>
+                              <a class="g-color-main g-color-main--hover" href="#">SE400 前端工程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">计算机科学 | Computer
-                                Science</a>
+                              <a class="g-color-main g-color-main--hover" href="#">SE500 工业级项目实战</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">游戏设计 | Game
-                                Programming</a>
+                              <a class="g-color-main g-color-main--hover" href="#">
+                                CS100 数据结构&算法入门
+                              </a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">交互设计 |
-                                Interactive Design</a>
+                              <a class="g-color-main g-color-main--hover" href="#">
+                                CS200 数据结构&算法进阶
+                              </a>
                             </li>
                           </ul>
                         </div>
 
                         <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">求职转行 For 18 - 35</h4>
+                          <h4 class="h5 text-uppercase g-font-weight-600">四大核心路线</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">软件工程师-前端 |
@@ -122,13 +155,6 @@ $("#header").append(`
                               <a class="g-color-main g-color-main--hover" href="#">UI设计师 | User
                                 Interface Designer</a>
                             </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">多人商业项目陪练 |
-                                Commercial Project Collaboration</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">求职辅导/模拟面试 |
-                                Interview Preparation</a>
                             </li>
                           </ul>
                         </div>
@@ -136,37 +162,29 @@ $("#header").append(`
                         <div class="col-lg-4">
                           <h4 class="h5 text-uppercase g-font-weight-600">其他课程</h4>
                           <ul class="list-unstyled mb-0">
+                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">少儿编程兴趣班</a>
+                            </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">钢琴陪练/考级</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">动画设计</a>
->>>>>>> parent of 00a277a... aupdates
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-2">网站开发进阶</a>
+                              <a class="g-color-main g-color-main--hover" href="#">成人英文教育</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-3">后段工程开发</a>
+                              <a class="g-color-main g-color-main--hover" href="#">精英SAT培训</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-4">前端工程开发</a>
+                              <a class="g-color-main g-color-main--hover" href="#">学科辅导</a>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <!-- End Mega Menu -->
-                  </li>
-                  <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
-                      学费
-                    </a>
-                  </li>
-                  <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
-                      精彩活动
-                    </a>
                   </li>
                 </ul>
               </div>
@@ -252,11 +270,11 @@ $("#footer").append(`
               <!-- Forms -->
               <form class="input-group g-pos-rel g-mb-50 g-mb-30--sm">
                 <input
-                  class="form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-blue--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15"
+                  class="form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-primary--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15"
                   type="email" placeholder="订阅我们的最新资讯">
                 <span class="input-group-addon g-pos-abs g-top-0 g-right-0 h-100 g-brd-left-none">
                   <button
-                    class="btn w-100 h-100 g-bg-transparent g-color-black g-color-blue--hover g-font-size-12 g-brd-none g-pa-10"
+                    class="btn w-100 h-100 g-bg-transparent g-color-black g-color-primary--hover g-font-size-12 g-brd-none g-pa-10"
                     type="submit">
                     <i class="fa fa-long-arrow-right"></i>
                   </button>
@@ -270,25 +288,25 @@ $("#footer").append(`
               <!-- Social Icons -->
               <ul class="list-inline mb-0">
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-blue--hover g-font-size-13 rounded-circle"
+                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
                     href="https://www.facebook.com/htmlstream">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-blue--hover g-font-size-13 rounded-circle"
+                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
                     href="https://twitter.com/htmlstream">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-blue--hover g-font-size-13 rounded-circle"
+                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
                     href="https://github.com/htmlstream">
                     <i class="fa fa-github"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-blue--hover g-font-size-13 rounded-circle"
+                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
                     href="https://dribbble.com/htmlstream">
                     <i class="fa fa-dribbble"></i>
                   </a>
