@@ -7,15 +7,16 @@
 	"immed": true,
 	"noarg": true,
 	"onevar": true,
-	"quotmark": "double",
+	"quotmark": "single",
 	"smarttabs": true,
 	"trailing": true,
 	"undef": true,
 	"unused": true,
+	"devel": false,
 
 	"browser": true,
-	"es3": true,
 	"jquery": true,
+	"esversion": 8,
 
 	"globals": {
 		"define": false,

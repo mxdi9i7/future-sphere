@@ -1,12 +1,12 @@
-$("#topBar").append(`
+$('#topBar').append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
           <div
             class="row flex-column flex-md-row align-items-center justify-content-md-end text-uppercase g-font-weight-600 g-color-white g-font-size-13">
-            <div class="col-auto mr-md-auto g-px-15">
-              <i class="icon icon-weather-001 g-font-size-20 g-valign-middle g-mr-10"></i>
-              2019年10月21日 8:21 A.M.
+            <div class="col-auto mr-md-auto g-px-15 g-color-primary">
+              <i class="fa fa-map-pin g-valign-middle g-mr-5"></i>
+              在线
             </div>
 
             <div class="col-auto g-px-15">
@@ -15,25 +15,15 @@ $("#topBar").append(`
             </div>
 
             <div class="col-auto g-px-15">
-              <i class="fa fa-map-pin g-valign-middle g-mr-5"></i>
+              <i class="fa fa-globe g-valign-middle g-mr-5"></i>
               <span>28-07 Jackson Ave. Long Island City, NY 11101</span>
             </div>
 
             <div class="col-auto g-px-15">
               <ul class="list-inline mb-0 g-mx-minus-3">
                 <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="#">
-                    讲师团队
-                  </a>
-                </li>
-                <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="#">
+                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="/contact.html">
                     联系我们
-                  </a>
-                </li>
-                <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="#">
-                    参观课堂
                   </a>
                 </li>
               </ul>
@@ -42,7 +32,7 @@ $("#topBar").append(`
         </div>
       </div>
 `);
-$("#header").append(`
+$('#header').append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -76,20 +66,15 @@ $("#header").append(`
               <div
                 class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg"
                 id="navBar">
-                <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
+                <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto" style="align-items: center">
                   <li class="nav-item g-mx-20--lg">
                     <a href="/" class="nav-link px-0">
                       首页
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
-                    <a href="/team.html" class="nav-link px-0">
+                    <a href="/about.html" class="nav-link px-0">
                       关于我们
-                    </a>
-                  </li>
-                  <li class="nav-item g-mx-20--lg">
-                    <a href="#" class="nav-link px-0">
-                      报名公开课
                     </a>
                   </li>
                   <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
@@ -105,7 +90,7 @@ $("#header").append(`
                       aria-labelledby="mega-menu-label-5" style="display: none;">
                       <div class="row">
                         <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">七大旗舰课程</h4>
+                          <h4 class="h5 text-uppercase g-font-weight-600">五大旗舰课程</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">SE100 网站设计</a>
@@ -121,17 +106,7 @@ $("#header").append(`
                               <a class="g-color-main g-color-main--hover" href="#">SE400 前端工程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE500 工业级项目实战</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">
-                                CS100 数据结构&算法入门
-                              </a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">
-                                CS200 数据结构&算法进阶
-                              </a>
+                              <a class="g-color-main g-color-main--hover" href="#">SE500 多人商业项目实战</a>
                             </li>
                           </ul>
                         </div>
@@ -150,10 +125,6 @@ $("#header").append(`
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">软件工程师-全栈 |
                                 Full-Stack Software Engineer</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">UI设计师 | User
-                                Interface Designer</a>
                             </li>
                             </li>
                           </ul>
@@ -186,6 +157,11 @@ $("#header").append(`
                     </div>
                     <!-- End Mega Menu -->
                   </li>
+                  <li class="nav-item">
+                    <a href="/open-class.html" class="btn btn-md u-btn-3d u-btn-primary">报名公开课</a>
+
+                  </li>
+                  
                 </ul>
               </div>
               <!-- End Navigation -->
@@ -195,7 +171,7 @@ $("#header").append(`
       </header>
 `);
 
-$("#footer").append(`
+$('#footer').append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
@@ -205,10 +181,13 @@ $("#footer").append(`
               <!-- Links -->
               <ul class="list-unstyled">
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">为什么要学编程？</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">关于我们</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">讲师团队</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">报名公开课</a>
+                </li>
+                <li class="g-py-6">
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">参观教室</a>
                 </li>
               </ul>
               <!-- End Links -->
@@ -216,47 +195,44 @@ $("#footer").append(`
 
             <div class="col-sm-6 col-lg-3 g-mb-50">
               <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">
-                少儿兴趣课程
+                三大核心路线
               </h3>
 
               <!-- Links -->
               <ul class="list-unstyled">
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">网站编程</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/tracks/frontend-engineer">前端工程师</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">服务器编程</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/tracks/backend-engineer">后端工程师</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">App编程</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/tracks/fullstack-engineer">全栈工程师</a>
                 </li>
               </ul>
               <!-- End Links -->
             </div>
 
             <div class="col-sm-6 col-lg-3 g-mb-50">
-              <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">零基础转行
+              <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">五大旗舰课程
               </h3>
 
               <!-- Links -->
               <ul class="list-unstyled">
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">前端软件工程师</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se100-web-design">SE100 网站设计</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">后端软件工程师</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se200-web-programming">SE200 网站编程</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">全栈软件工程师</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se300-backend-engineering">SE300 后端工程</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">UI设计师</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se400-frontend-engineering">SE400 前端工程</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">多人项目实践</a>
-                </li>
-                <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">求职辅导</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se500-team-commercial-project">SE500 多人商业项目实战</a>
                 </li>
               </ul>
               <!-- End Links -->
@@ -288,27 +264,27 @@ $("#footer").append(`
               <!-- Social Icons -->
               <ul class="list-inline mb-0">
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://www.facebook.com/htmlstream">
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://www.facebook.com/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F-102553791245784">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://twitter.com/htmlstream">
-                    <i class="fa fa-twitter"></i>
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://www.linkedin.com/company/future-sphere/">
+                    <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://github.com/htmlstream">
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://github.com/future-sphere">
                     <i class="fa fa-github"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://dribbble.com/htmlstream">
-                    <i class="fa fa-dribbble"></i>
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://www.youtube.com/channel/UC48B4o5vBb2u9dCEktRWeyg">
+                    <i class="fa fa-youtube"></i>
                   </a>
                 </li>
               </ul>
