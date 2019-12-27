@@ -32,7 +32,7 @@ $('#topBar').append(`
         </div>
       </div>
 `);
-$('#header').append(`
+$("#header").append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -77,6 +77,11 @@ $('#header').append(`
                       关于我们
                     </a>
                   </li>
+                   <li class="nav-item g-mx-20--lg">
+                    <a href="/career-program.html" class="nav-link px-0">
+                      就业保证计划
+                    </a>
+                  </li>
                   <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
                     data-animation-out="fadeOut" data-position="right">
                     <a id="mega-menu-label-5" class="nav-link g-px-0 g-color-primary" href="#"
@@ -112,7 +117,7 @@ $('#header').append(`
                         </div>
 
                         <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">四大核心路线</h4>
+                          <h4 class="h5 text-uppercase g-font-weight-600">三大核心路线</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">软件工程师-前端 |

@@ -53,7 +53,7 @@ const renderCourseData = async () => {
 
 const renderTracksData = () => {
   tracksData.forEach((data) => {
-    $('#tracks').append(`
+    $("#tracks").append(`
       <div class="col-lg-4 g-mb-30">
         
         <article class="u-block-hover">
@@ -70,8 +70,12 @@ const renderTracksData = () => {
               text-uppercase rounded-0" href="#">${data.courses[1]}</a>
             <a class="btn btn-sm g-bg-white g-color-black text-uppercase rounded-0"
               href="#">${data.courses[2]}</a>
-              <a class="btn btn-sm g-bg-white g-color-black text-uppercase rounded-0"
-              href="#">${data.courses[3] || ''}</a>
+              <a class="${
+                data.courses[3]
+                  ? "btn btn-sm g-bg-white g-color-black text-uppercase rounded-0"
+                  : ""
+              }"
+              href="#">${data.courses[3] || ""}</a>
           </span>
 
           <header class="g-color-white g-pos-abs g-right-20 g-bottom-20 g-left-20">
@@ -81,7 +85,9 @@ const renderTracksData = () => {
             </span>
 
             <h3 class="text-uppercase g-font-weight-600 g-mt-5 g-mb-10">
-              <a class="g-color-white g-color-white--hover" href="#">${data.title}</a>
+              <a class="g-color-white g-color-white--hover" href="#">${
+                data.title
+              }</a>
             </h3>
 
             <div class="g-mb-20">

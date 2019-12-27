@@ -15,7 +15,7 @@ const coursesData = [
     highlights: [ '5人小班', '在职高级工程师授课', '课后项目', '期末考核' ],
     hours: 16,
     timeCost: '3-4周',
-    description: '入门JavaScript，互联网最火热最普及的技术。使用JavaScript进行算法运算和网站功能搭建',
+    description: '入门并精通JavaScript，互联网最火热最普及的技术：可以用来搭建App、网站、数据、服务器。使用JavaScript进行算法运算和网站功能搭建并为之后的课程打好坚实的基础。',
     slug: 'SE200-web-programming',
     id: 'se200',
     thumbnail:
