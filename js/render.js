@@ -1,6 +1,7 @@
 import coursesData from '../data/courses.js';
 import tracksData from '../data/tracks.js';
 import instructorData from '../data/instructors.js';
+import faqs from '../data/faq.js';
 
 const renderCourseData = async () => {
   console.log(coursesData);
@@ -53,7 +54,7 @@ const renderCourseData = async () => {
 
 const renderTracksData = () => {
   tracksData.forEach((data) => {
-    $("#tracks").append(`
+    $('#tracks').append(`
       <div class="col-lg-4 g-mb-30">
         
         <article class="u-block-hover">
@@ -70,12 +71,10 @@ const renderTracksData = () => {
               text-uppercase rounded-0" href="#">${data.courses[1]}</a>
             <a class="btn btn-sm g-bg-white g-color-black text-uppercase rounded-0"
               href="#">${data.courses[2]}</a>
-              <a class="${
-                data.courses[3]
-                  ? "btn btn-sm g-bg-white g-color-black text-uppercase rounded-0"
-                  : ""
-              }"
-              href="#">${data.courses[3] || ""}</a>
+              <a class="${data.courses[3]
+                ? 'btn btn-sm g-bg-white g-color-black text-uppercase rounded-0'
+                : ''}"
+              href="#">${data.courses[3] || ''}</a>
           </span>
 
           <header class="g-color-white g-pos-abs g-right-20 g-bottom-20 g-left-20">
@@ -85,9 +84,7 @@ const renderTracksData = () => {
             </span>
 
             <h3 class="text-uppercase g-font-weight-600 g-mt-5 g-mb-10">
-              <a class="g-color-white g-color-white--hover" href="#">${
-                data.title
-              }</a>
+              <a class="g-color-white g-color-white--hover" href="#">${data.title}</a>
             </h3>
 
             <div class="g-mb-20">
@@ -128,6 +125,52 @@ const renderInstructors = () => {
   });
 };
 
+const renderFAQ = () => {
+  faqs.forEach((data, i) => {
+    console.log(data);
+    $('#accordion').append(`
+        <div class="card g-brd-none rounded g-mb-20">
+          <div
+              id="accordion-heading-0${i + 1}"
+              class="g-pa-0"
+              role="tab"
+          >
+              <h5 class="mb-0">
+                  <a
+                      class="collapsed d-flex justify-content-between u-shadow-v19 g-color-main g-text-underline--none--hover rounded g-px-30 g-py-20"
+                      href="#accordion-body-0${i + 1}"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      aria-expanded="false"
+                      aria-controls="accordion-body-0${i + 1}"
+                  >
+                      ${data.question}
+                      <span
+                          class="u-accordion__control-icon g-color-primary"
+                      >
+                          <i class="fa fa-angle-down"></i>
+                          <i class="fa fa-angle-up"></i>
+                      </span>
+                  </a>
+              </h5>
+          </div>
+          <div
+              id="accordion-body-0${i + 1}"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="accordion-heading-0${i + 1}"
+              data-parent="#accordion"
+          >
+              <div class="u-accordion__body g-color-gray-dark-v4 g-pa-30">
+                 ${data.answer}
+              </div>
+          </div>
+      </div>
+    `);
+  });
+};
+
 renderCourseData();
 renderTracksData();
 renderInstructors();
+renderFAQ();

@@ -18,21 +18,11 @@ $('#topBar').append(`
               <i class="fa fa-globe g-valign-middle g-mr-5"></i>
               <span>28-07 Jackson Ave. Long Island City, NY 11101</span>
             </div>
-
-            <div class="col-auto g-px-15">
-              <ul class="list-inline mb-0 g-mx-minus-3">
-                <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block g-color-gray-light-v1 g-color-gray-light-v1--hover" href="/contact.html">
-                    联系我们
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
 `);
-$("#header").append(`
+$('#header').append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -80,6 +70,16 @@ $("#header").append(`
                    <li class="nav-item g-mx-20--lg">
                     <a href="/career-program.html" class="nav-link px-0">
                       就业保证计划
+                    </a>
+                  </li>
+                  <li class="nav-item g-mx-20--lg">
+                    <a href="/contact.html" class="nav-link px-0">
+                      联系我们
+                    </a>
+                  </li>
+                  <li class="nav-item g-mx-20--lg">
+                    <a href="/faq.html" class="nav-link px-0">
+                      常见问题
                     </a>
                   </li>
                   <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
@@ -180,19 +180,28 @@ $('#footer').append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
-              <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">首页
+              <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">站内导航
               </h3>
 
               <!-- Links -->
               <ul class="list-unstyled">
                 <li class="g-py-6">
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">首页</a>
+                </li>
+                <li class="g-py-6">
                   <a class="u-link-v5 g-color-gray-dark-v5" href="#">关于我们</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">报名公开课</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">就业保证计划</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">参观教室</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">联系我们</a>
+                </li>
+                <li class="g-py-6">
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">常见问题</a>
+                </li>
+                <li class="g-py-6">
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">报名公开课</a>
                 </li>
               </ul>
               <!-- End Links -->
