@@ -253,25 +253,21 @@ $("#footer").append(`
             </div>
 
             <div class="col-sm-6 col-lg-3 g-mb-50">
-              <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">
-                邮箱订阅
-              </h3>
-
-              <!-- Forms -->
-              <form class="input-group g-pos-rel g-mb-50 g-mb-30--sm">
-                <input
-                  class="form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-primary--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15"
-                  type="email" placeholder="订阅我们的最新资讯">
-                <span class="input-group-addon g-pos-abs g-top-0 g-right-0 h-100 g-brd-left-none">
-                  <button
-                    class="btn w-100 h-100 g-bg-transparent g-color-black g-color-primary--hover g-font-size-12 g-brd-none g-pa-10"
-                    type="submit">
-                    <i class="fa fa-long-arrow-right"></i>
-                  </button>
-                </span>
+             <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup"><h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">邮箱订阅</h3>
+              <form action="https://thefuturesphere.us4.list-manage.com/subscribe/post?u=945333b726d217fae0a64f87a&amp;id=0cb33029f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate input-group g-pos-rel g-mb-50 g-mb-30--sm" target="_blank" novalidate>
+                  
+                  <input type="email" value="" name="EMAIL" placeholder="订阅我们的最新资讯" class="required email form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-primary--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15" id="mce-EMAIL">
+                  <span class="input-group-addon g-pos-abs g-top-0 g-right-0 h-100 g-brd-left-none">
+                    <button class="btn w-100 h-100 g-bg-transparent g-color-black g-color-primary--hover g-font-size-12 g-brd-none g-pa-10" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button ">
+                      <i class="fa fa-long-arrow-right"></i>
+                    </button>
+                  </span>
               </form>
-              <!-- End Forms -->
-
+            </div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
               <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">关注我们
               </h3>
               
