@@ -19,7 +19,7 @@ const coursesData = [
     slug: 'SE200-web-programming',
     id: 'se200',
     thumbnail:
-      'https://res.cloudinary.com/dtgh01qqo/image/upload/c_fill,h_540,w_600/v1576037147/FutureSphere/assets/792484_cc98_3.jpg',
+      'https://res.cloudinary.com/dtgh01qqo/image/upload/v1577686243/FutureSphere/assets/Free_Courses_to_learn_JavaScript.jpg',
   },
   {
     title: 'SE300 后端工程',
@@ -30,7 +30,7 @@ const coursesData = [
     slug: 'SE300-backend-engineering',
     id: 'se300',
     thumbnail:
-      'https://res.cloudinary.com/dtgh01qqo/image/upload/c_fill,h_540,w_600/v1576037147/FutureSphere/assets/792484_cc98_3.jpg',
+      'https://res.cloudinary.com/dtgh01qqo/image/upload/v1577686243/FutureSphere/assets/backend-development-books.jpg',
   },
   {
     title: 'SE400 前端工程',
@@ -41,7 +41,7 @@ const coursesData = [
     slug: 'SE400-frontend-engineering',
     id: 'se400',
     thumbnail:
-      'https://res.cloudinary.com/dtgh01qqo/image/upload/c_fill,h_540,w_600/v1576037147/FutureSphere/assets/792484_cc98_3.jpg',
+      'https://res.cloudinary.com/dtgh01qqo/image/upload/v1577686242/FutureSphere/assets/Allan_Get-Web-Developer-Savvy_header.png',
   },
   {
     title: 'SE500 多人商业项目实战',
@@ -52,7 +52,7 @@ const coursesData = [
     slug: 'SE500-team-commercial-project',
     id: 'se500',
     thumbnail:
-      'https://res.cloudinary.com/dtgh01qqo/image/upload/c_fill,h_540,w_600/v1576037147/FutureSphere/assets/792484_cc98_3.jpg',
+      'https://res.cloudinary.com/dtgh01qqo/image/upload/v1577686243/FutureSphere/assets/teamwork-and-team-building.png',
   },
 ];
 
