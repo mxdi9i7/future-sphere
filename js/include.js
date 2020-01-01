@@ -1,4 +1,4 @@
-$('#topBar').append(`
+$("#topBar").append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
@@ -22,7 +22,7 @@ $('#topBar').append(`
         </div>
       </div>
 `);
-$('#header').append(`
+$("#header").append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -176,7 +176,7 @@ $('#header').append(`
       </header>
 `);
 
-$('#footer').append(`
+$("#footer").append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
@@ -253,56 +253,45 @@ $('#footer').append(`
             </div>
 
             <div class="col-sm-6 col-lg-3 g-mb-50">
-              <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">
-                邮箱订阅
-              </h3>
+             <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
 
-              <!-- Forms -->
-              <form class="input-group g-pos-rel g-mb-50 g-mb-30--sm">
-                <input
-                  class="form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-primary--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15"
-                  type="email" placeholder="订阅我们的最新资讯">
-                <span class="input-group-addon g-pos-abs g-top-0 g-right-0 h-100 g-brd-left-none">
-                  <button
-                    class="btn w-100 h-100 g-bg-transparent g-color-black g-color-primary--hover g-font-size-12 g-brd-none g-pa-10"
-                    type="submit">
-                    <i class="fa fa-long-arrow-right"></i>
-                  </button>
-                </span>
-              </form>
-              <!-- End Forms -->
-
+<form style="padding-top: 0px;" action="https://thefuturesphere.us4.list-manage.com/subscribe/post?u=945333b726d217fae0a64f87a&amp;id=0cb33029f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" >
+	
+<div class="mc-field-group">
+<h2 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3" style="
+    margin-top: 0px;">邮箱订阅
+</h2>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="订阅我们的最新资讯">
+</div>
+	<div id="mce-responses" class="clear" style="
+    margin-left: 0px;
+    margin-right: 0px;
+">
+		<div class="response" id="mce-error-response" style="display:none" style="margin:0px; padding:0px;"></div>
+		<div class="response" id="mce-success-response" style="display:none" style="margin:0px; padding:0px;"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_945333b726d217fae0a64f87a_0cb33029f5" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
               <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">关注我们
               </h3>
-
-              <!-- Social Icons -->
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item g-mx-2">
-                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://www.facebook.com/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F-102553791245784">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mx-2">
-                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://www.linkedin.com/company/future-sphere/">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mx-2">
-                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://github.com/future-sphere">
-                    <i class="fa fa-github"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mx-2">
-                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
-                    href="https://www.youtube.com/channel/UC48B4o5vBb2u9dCEktRWeyg">
-                    <i class="fa fa-youtube"></i>
-                  </a>
-                </li>
-              </ul>
-              <!-- End Social Icons -->
+              
+                <div class="shortcode-html">
+                  <img class="img-fluid" src="assets/img/bg/qr code.png" alt="Image Description">
+                </div>
+              
             </div>
           </div>
 
@@ -323,4 +312,13 @@ $('#footer').append(`
           </div>
           <!-- End Copyright -->
         </footer>
+        <script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "133112d9-59a4-4c05-8d2e-c04ee61ccd1e",
+      host: "https://wchat.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
 `);
