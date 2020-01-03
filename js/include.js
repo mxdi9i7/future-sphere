@@ -1,4 +1,4 @@
-$("#topBar").append(`
+$('#topBar').append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
@@ -22,7 +22,7 @@ $("#topBar").append(`
         </div>
       </div>
 `);
-$("#header").append(`
+$('#header').append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -176,7 +176,7 @@ $("#header").append(`
       </header>
 `);
 
-$("#footer").append(`
+$('#footer').append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
@@ -253,6 +253,7 @@ $("#footer").append(`
             </div>
 
             <div class="col-sm-6 col-lg-3 g-mb-50">
+
             <div id="mc_embed_signup"><h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">邮箱订阅</h3>
               <form action="https://thefuturesphere.us4.list-manage.com/subscribe/post?u=945333b726d217fae0a64f87a&amp;id=0cb33029f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate input-group g-pos-rel g-mb-50 g-mb-30--sm" target="_blank" novalidate>
                   
@@ -266,13 +267,38 @@ $("#footer").append(`
               <!-- End Forms -->
             </div>
 <!--End mc_embed_signup-->
+
               <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">关注我们
               </h3>
-              
-                <div class="shortcode-html">
-                  <img class="img-fluid" src="assets/img/bg/qr code.png" alt="Image Description">
-                </div>
-              
+
+              <!-- Social Icons -->
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item g-mx-2">
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://www.facebook.com/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F-102553791245784">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item g-mx-2">
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://www.linkedin.com/company/future-sphere/">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item g-mx-2">
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://github.com/future-sphere">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item g-mx-2">
+                  <a target="_blank" class="u-icon-v3 g-width-35 g-height-35 g-color-black g-bg-secondary g-color-white--hover g-bg-primary--hover g-font-size-13 rounded-circle"
+                    href="https://www.youtube.com/channel/UC48B4o5vBb2u9dCEktRWeyg">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+              <!-- End Social Icons -->
             </div>
           </div>
 
@@ -293,13 +319,4 @@ $("#footer").append(`
           </div>
           <!-- End Copyright -->
         </footer>
-        <script>
-  function initFreshChat() {
-    window.fcWidget.init({
-      token: "133112d9-59a4-4c05-8d2e-c04ee61ccd1e",
-      host: "https://wchat.freshchat.com"
-    });
-  }
-  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-</script>
 `);
