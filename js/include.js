@@ -253,37 +253,18 @@ $("#footer").append(`
             </div>
 
             <div class="col-sm-6 col-lg-3 g-mb-50">
-             <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-
-<form style="padding-top: 0px;" action="https://thefuturesphere.us4.list-manage.com/subscribe/post?u=945333b726d217fae0a64f87a&amp;id=0cb33029f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll" >
-	
-<div class="mc-field-group">
-<h2 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3" style="
-    margin-top: 0px;">邮箱订阅
-</h2>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="订阅我们的最新资讯">
-</div>
-	<div id="mce-responses" class="clear" style="
-    margin-left: 0px;
-    margin-right: 0px;
-">
-		<div class="response" id="mce-error-response" style="display:none" style="margin:0px; padding:0px;"></div>
-		<div class="response" id="mce-success-response" style="display:none" style="margin:0px; padding:0px;"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_945333b726d217fae0a64f87a_0cb33029f5" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <div id="mc_embed_signup"><h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">邮箱订阅</h3>
+              <form action="https://thefuturesphere.us4.list-manage.com/subscribe/post?u=945333b726d217fae0a64f87a&amp;id=0cb33029f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate input-group g-pos-rel g-mb-50 g-mb-30--sm" target="_blank" novalidate>
+                  
+                  <input type="email" value="" name="EMAIL" placeholder="订阅我们的最新资讯" class="required email form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-primary--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15" id="mce-EMAIL">
+                  <span class="input-group-addon g-pos-abs g-top-0 g-right-0 h-100 g-brd-left-none">
+                    <button class="btn w-100 h-100 g-bg-transparent g-color-black g-color-primary--hover g-font-size-12 g-brd-none g-pa-10" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button ">
+                      <i class="fa fa-long-arrow-right"></i>
+                    </button>
+                  </span>
+              </form>
+              <!-- End Forms -->
+            </div>
 <!--End mc_embed_signup-->
               <h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">关注我们
               </h3>
