@@ -106,7 +106,7 @@
                             </header>
 
                             <!-- Form -->
-                            <form class="g-py-15">
+                            <form class="g-py-15" action="https://formspree.io/myykvoge" method="POST">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 mb-4">
                                         <div class="input-group">
@@ -117,7 +117,7 @@
                                             </div>
                                             <input
                                                 class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover g-py-15 g-px-15"
-                                                type="text" placeholder="学生姓名">
+                                                type="text" placeholder="学生姓名" name="student_name">
                                         </div>
                                     </div>
 
@@ -130,7 +130,7 @@
                                             </div>
                                             <input
                                                 class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover g-py-15 g-px-15"
-                                                type="text" placeholder="联系微信号">
+                                                type="text" placeholder="联系微信号" name="wechat">
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@
                                         </div>
                                         <input
                                             class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover g-py-15 g-px-15"
-                                            type="email" placeholder="联系邮箱">
+                                            type="email" placeholder="联系邮箱" name="email">
                                     </div>
                                 </div>
 
@@ -158,7 +158,7 @@
                                             </div>
                                             <input
                                                 class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover g-py-15 g-px-15"
-                                                type="tel" placeholder="联系电话">
+                                                type="tel" placeholder="联系电话" name="phone">
                                         </div>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                 <div>
 
                                     <button class="btn btn-md btn-block u-btn-primary g-py-13 g-px-25"
-                                        type="button">提交表格</button>
+                                        type="submit">提交表格</button>
                                 </div>
                             </form>
                         </div>
@@ -210,16 +210,16 @@
 
                                 <!-- Testimonials -->
                                 <blockquote
-                                    class="u-blockquote-v1 g-color-main rounded g-pl-60 g-pr-30 g-py-25 g-mb-40">
-                                    第一次这么清晰的了解到软件工程师的行业内幕，才发现一直以来对“程序员”的印象全是错的。</blockquote>
+                                    class="u-blockquote-v1 g-color-main rounded g-pl-60 g-pr-30 g-py-25 g-mb-40" style="width: 60%;">
+                                        <img src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1577918606/FutureSphere/qr_code.png"
+                                            alt="QR Code" height="120px">
+                                    </blockquote>
                                 <div class="media">
                                     <img class="d-flex align-self-center rounded-circle g-width-40 g-height-40 mr-3"
-                                        src="../../assets/img-temp/100x100/img12.jpg" alt="Image Description">
+                                        src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1571287441/FutureSphere/fslogo.png" alt="Image Description">
                                     <div class="media-body align-self-center">
                                         <h4 class="h6 g-color-white g-font-weight-600 g-mb-0">
-                                            Alex Pottorf</h4>
-                                        <em class="g-color-white-opacity-0_6 g-font-style-normal g-font-size-12">Web
-                                            Developer</em>
+                                            未来领域微信客服</h4>
                                     </div>
                                 </div>
                                 <!-- End Testimonials -->
@@ -233,14 +233,6 @@
 
 
         <div id="footer"></div>
-
-
-        <a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
-     "bottom": 15,
-     "right": 15
-   }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-            <i class="hs-icon hs-icon-arrow-top"></i>
-        </a>
     </main>
 
     <div class="u-outer-spaces-helper"></div>
