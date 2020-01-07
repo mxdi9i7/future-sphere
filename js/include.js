@@ -4,19 +4,19 @@ $("#topBar").append(`
         <div class="container">
           <div
             class="row flex-column flex-md-row align-items-center justify-content-md-end text-uppercase g-font-weight-600 g-color-white g-font-size-13">
-            <div class="col-auto mr-md-auto g-px-15 g-color-primary">
+            <div class="col-auto mr-md-auto g-px-15 g-color-blue">
               <i class="fa fa-map-pin g-valign-middle g-mr-5"></i>
               在线
             </div>
 
             <div class="col-auto g-px-15">
               <i class="fa fa-phone g-valign-middle g-mr-5"></i>
-              <a href="tel:13477412617">347-741-2617</a>
+              <a href="tel:13477412617" style="color: #3398dc">347-741-2617</a>
             </div>
 
             <div class="col-auto g-px-15">
               <i class="fa fa-globe g-valign-middle g-mr-5"></i>
-              <span>28-07 Jackson Ave. 8FL Long Island City, NY 11101</span>
+              <a href="https://www.google.com/maps/place/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F+The+Future+Sphere/@40.7488988,-73.9410181,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bf99fefe27:0xd753f77b894b9474!8m2!3d40.7488948!4d-73.9388294" target="_blank" style="color: #3398dc">28-07 Jackson Ave. 8FL Long Island City, NY 11101</a>
             </div>
           </div>
         </div>
@@ -84,14 +84,14 @@ $("#header").append(`
                   </li>
                   <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
                     data-animation-out="fadeOut" data-position="right">
-                    <a id="mega-menu-label-5" class="nav-link g-px-0 g-color-primary" href="#"
+                    <a id="mega-menu-label-5" class="nav-link g-px-0 g-color-blue" href="#"
                       aria-haspopup="true" aria-expanded="false">课程介绍
                       <i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-5"></i>
                     </a>
 
                     <!-- Mega Menu -->
                     <div
-                      class="w-100 hs-mega-menu u-shadow-v11 g-text-transform-none g-font-weight-400 g-brd-top g-brd-primary g-brd-top-2 g-bg-white g-pa-30 g-mt-17 g-mt-7--lg--scrolling animated hs-position-right fadeOut"
+                      class="w-100 hs-mega-menu u-shadow-v11 g-text-transform-none g-font-weight-400 g-brd-top g-brd-blue g-brd-top-2 g-bg-white g-pa-30 g-mt-17 g-mt-7--lg--scrolling animated hs-position-right fadeOut"
                       aria-labelledby="mega-menu-label-5" style="display: none;">
                       <div class="row">
                         <div class="col-lg-4">
@@ -163,7 +163,7 @@ $("#header").append(`
                     <!-- End Mega Menu -->
                   </li>
                   <li class="nav-item">
-                    <a href="/open-class.html" class="btn btn-md u-btn-3d u-btn-primary">报名公开课</a>
+                    <a href="/open-class.html" class="btn btn-md u-btn-3d u-btn-blue">报名公开课</a>
 
                   </li>
                   
@@ -257,9 +257,9 @@ $("#footer").append(`
             <div id="mc_embed_signup"><h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">邮箱订阅</h3>
               <form action="https://thefuturesphere.us4.list-manage.com/subscribe/post?u=945333b726d217fae0a64f87a&amp;id=0cb33029f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate input-group g-pos-rel g-mb-50 g-mb-30--sm" target="_blank" novalidate>
                   
-                  <input type="email" value="" name="EMAIL" placeholder="订阅我们的最新资讯" class="required email form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-primary--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15" id="mce-EMAIL">
+                  <input type="email" value="" name="EMAIL" placeholder="订阅我们的最新资讯" class="required email form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-blue--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15" id="mce-EMAIL">
                   <span class="input-group-addon g-pos-abs g-top-0 g-right-0 h-100 g-brd-left-none">
-                    <button class="btn w-100 h-100 g-bg-transparent g-color-black g-color-primary--hover g-font-size-12 g-brd-none g-pa-10" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button ">
+                    <button class="btn w-100 h-100 g-bg-transparent g-color-black g-color-blue--hover g-font-size-12 g-brd-none g-pa-10" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button ">
                       <i class="fa fa-long-arrow-right"></i>
                     </button>
                   </span>
@@ -302,6 +302,7 @@ $("#footer").append(`
       host: "https://wchat.freshchat.com"
     });
   }
-  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+  function initialize(i,t){
+    var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
 </script>
 `);
