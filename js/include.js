@@ -186,22 +186,22 @@ $("#footer").append(`
               <!-- Links -->
               <ul class="list-unstyled">
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">首页</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/">首页</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">关于我们</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/about.html">关于我们</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">就业保证计划</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/career-program.html">就业保证计划</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">联系我们</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/contact.html">联系我们</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">常见问题</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="./faq.html">常见问题</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="#">报名公开课</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="./open-class.html">报名公开课</a>
                 </li>
               </ul>
               <!-- End Links -->
