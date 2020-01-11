@@ -11,12 +11,12 @@ $("#topBar").append(`
 
             <div class="col-auto g-px-15">
               <i class="fa fa-phone g-valign-middle g-mr-5"></i>
-              <a href="tel:13477412617" style="color: #3398dc">347-741-2617</a>
+              <a href="tel:13477412617" style="color: #fff">347-741-2617</a>
             </div>
 
             <div class="col-auto g-px-15">
               <i class="fa fa-globe g-valign-middle g-mr-5"></i>
-              <a href="https://www.google.com/maps/place/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F+The+Future+Sphere/@40.7488988,-73.9410181,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bf99fefe27:0xd753f77b894b9474!8m2!3d40.7488948!4d-73.9388294" target="_blank" style="color: #3398dc">28-07 Jackson Ave. 8FL Long Island City, NY 11101</a>
+              <a href="https://www.google.com/maps/place/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F+The+Future+Sphere/@40.7488988,-73.9410181,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bf99fefe27:0xd753f77b894b9474!8m2!3d40.7488948!4d-73.9388294" target="_blank" style="color: #fff">28-07 Jackson Ave. 8FL Long Island City, NY 11101</a>
             </div>
           </div>
         </div>
