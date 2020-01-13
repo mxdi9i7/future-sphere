@@ -4,7 +4,7 @@ $("#topBar").append(`
         <div class="container">
           <div
             class="row flex-column flex-md-row align-items-center justify-content-md-end text-uppercase g-font-weight-600 g-color-white g-font-size-13">
-            <div class="col-auto mr-md-auto g-px-15 g-color-blue">
+            <div class="col-auto mr-md-auto g-px-15 g-color-white">
               <i class="fa fa-map-pin g-valign-middle g-mr-5"></i>
               在线
             </div>
