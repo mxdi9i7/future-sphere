@@ -3,7 +3,7 @@ $('#topBar').append(`
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
           <div
-            class="row flex-column flex-md-row align-items-center justify-content-md-end text-uppercase g-font-weight-600 g-color-white g-font-size-13">
+            class="row flex-column flex-md-row align-items-center justify-content-md-end  g-font-weight-600 g-color-white g-font-size-13">
             <div class="col-auto mr-md-auto g-px-15 g-color-white">
               <i class="fa fa-map-pin g-valign-middle g-mr-5"></i>
               在线
@@ -18,6 +18,8 @@ $('#topBar').append(`
               <i class="fa fa-globe g-valign-middle g-mr-5"></i>
               <a href="https://www.google.com/maps/place/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F+The+Future+Sphere/@40.7488988,-73.9410181,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bf99fefe27:0xd753f77b894b9474!8m2!3d40.7488948!4d-73.9388294" target="_blank" style="color: #fff">28-07 Jackson Ave. 8FL Long Island City, NY 11101</a>
             </div>
+
+            <a target="_blank" href="https://score.thefuturesphere.com"><i class="fas fa-user-graduate"></i> 学生中心</a>
           </div>
         </div>
       </div>
@@ -56,7 +58,7 @@ $('#header').append(`
               <div
                 class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg"
                 id="navBar">
-                <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto" style="align-items: center">
+                <ul class="navbar-nav g-font-weight-600 ml-auto" style="align-items: center" id="header-menu">
                   <li class="nav-item g-mx-20--lg">
                     <a href="/" class="nav-link px-0">
                       首页
@@ -92,10 +94,10 @@ $('#header').append(`
                     <!-- Mega Menu -->
                     <div
                       class="w-100 hs-mega-menu u-shadow-v11 g-text-transform-none g-font-weight-400 g-brd-top g-brd-blue g-brd-top-2 g-bg-white g-pa-30 g-mt-17 g-mt-7--lg--scrolling animated hs-position-right fadeOut"
-                      aria-labelledby="mega-menu-label-5" style="display: none;">
+                      aria-labelledby="mega-menu-label-5" style="display: none;" id="mega-menu">
                       <div class="row">
                         <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">五大旗舰课程</h4>
+                          <h4 class="h5 g-font-weight-600">五大旗舰课程</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">SE100 网站设计</a>
@@ -139,7 +141,7 @@ $('#header').append(`
                           <h4 class="h5 text-uppercase g-font-weight-600">少儿编程兴趣班</h4>
                           <ul class="list-unstyled mb-0">
                           <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">网页设计</a>
+                              <a class="g-color-main g-color-main--hover" href="kids.html">网页设计</a>
                             </li>
                           <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
                               <a class="g-color-main g-color-main--hover" href="#">网站编程</a>

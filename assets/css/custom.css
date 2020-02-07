@@ -1,1 +1,9 @@
 /* Add here all your css styles (customizations) */
+#header-menu .nav-link {
+  transition-duration: 0;
+}
+
+#header-menu .nav-link:hover {
+  text-decoration: underline;
+  color: #3398dc;
+}
