@@ -769,20 +769,11 @@
           breakpoint: 991
         });
 
-        // initialization of vertical progress bar
-        setTimeout(function () { // important in this case
-          var verticalProgressBars = $.HSCore.components.HSProgressBar.init('.js-vr-progress-bar', {
-            direction: 'vertical',
-            indicatorSelector: '.js-vr-progress-bar-indicator'
-          });
-        }, 1);
-      });
-
-      $(window).on('resize', function () {
-        setTimeout(function () {
-          $.HSCore.components.HSTabs.init('[role="tablist"]');
-        }, 200);
-      });
+        $(window).on('resize', function () {
+          setTimeout(function () {
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+          }, 200);
+        });
     </script>
 
     <div
@@ -858,10 +849,6 @@
     <script src="./assets/js/components/hs.select.js"></script>
     <script src="./assets/js/components/hs.modal-window.js"></script>
     <script src="./assets/js/components/hs.markup-copy.js"></script>
-
-    <script src="./assets/style-switcher/vendor/cookiejs/jquery.cookie.js"></script>
-    <script src="./assets/style-switcher/vendor/spectrum/spectrum.js"></script>
-    <script src="./assets/style-switcher/style-switcher.js"></script>
     <!-- End Scripts -->
     <!-- End Style Switcher -->
     <script
@@ -873,7 +860,6 @@
       src="https://kit.fontawesome.com/a62b29f649.js"
       crossorigin="anonymous"
     ></script>
-
   </body>
 
 </html>

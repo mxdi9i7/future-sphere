@@ -22,7 +22,6 @@ const loadCourseDetail = e => {
     }),
   };
   fetch(apiEndpoint, options).then(res => res.json()).then(data => {
-    console.log(data.data.course);
     const { course } = data.data;
     renderContentToCourse(course);
   });
