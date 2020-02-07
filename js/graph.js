@@ -9,7 +9,7 @@ const headers = {
   Authorization: `Bearer ${token}`,
 };
 
-const loadCourseDetail = (e) => {
+const loadCourseDetail = e => {
   const slug = encodeURIComponent(window.location.search.split('=')[1]);
 
   const options = {
@@ -21,12 +21,12 @@ const loadCourseDetail = (e) => {
       variables: null,
     }),
   };
-  fetch(apiEndpoint, options).then((res) => res.json()).then((data) => {
+  fetch(apiEndpoint, options).then(res => res.json()).then(data => {
     const { course } = data.data;
     renderContentToCourse(course);
   });
 };
 
-$(document).ready(() => {
-  loadCourseDetail();
-});
+// $(document).ready(() => {
+//   loadCourseDetail();
+// });

@@ -1,9 +1,9 @@
-$("#topBar").append(`
+$('#topBar').append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
           <div
-            class="row flex-column flex-md-row align-items-center justify-content-md-end text-uppercase g-font-weight-600 g-color-white g-font-size-13">
+            class="row flex-column flex-md-row align-items-center justify-content-md-end  g-font-weight-600 g-color-white g-font-size-13">
             <div class="col-auto mr-md-auto g-px-15 g-color-white">
               <i class="fa fa-map-pin g-valign-middle g-mr-5"></i>
               在线
@@ -18,11 +18,13 @@ $("#topBar").append(`
               <i class="fa fa-globe g-valign-middle g-mr-5"></i>
               <a href="https://www.google.com/maps/place/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F+The+Future+Sphere/@40.7488988,-73.9410181,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bf99fefe27:0xd753f77b894b9474!8m2!3d40.7488948!4d-73.9388294" target="_blank" style="color: #fff">28-07 Jackson Ave. 8FL Long Island City, NY 11101</a>
             </div>
+
+            <a target="_blank" href="https://score.thefuturesphere.com"><i class="fas fa-user-graduate"></i> 学生中心</a>
           </div>
         </div>
       </div>
 `);
-$("#header").append(`
+$('#header').append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -56,7 +58,7 @@ $("#header").append(`
               <div
                 class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg"
                 id="navBar">
-                <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto" style="align-items: center">
+                <ul class="navbar-nav g-font-weight-600 ml-auto" style="align-items: center" id="header-menu">
                   <li class="nav-item g-mx-20--lg">
                     <a href="/" class="nav-link px-0">
                       首页
@@ -92,26 +94,26 @@ $("#header").append(`
                     <!-- Mega Menu -->
                     <div
                       class="w-100 hs-mega-menu u-shadow-v11 g-text-transform-none g-font-weight-400 g-brd-top g-brd-blue g-brd-top-2 g-bg-white g-pa-30 g-mt-17 g-mt-7--lg--scrolling animated hs-position-right fadeOut"
-                      aria-labelledby="mega-menu-label-5" style="display: none;">
+                      aria-labelledby="mega-menu-label-5" style="display: none;" id="mega-menu">
                       <div class="row">
                         <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">五大旗舰课程</h4>
+                          <h4 class="h5 g-font-weight-600">五大旗舰课程</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">SE100 网站设计</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE100-web-design">SE100 网站设计</a>
                             </li>
 
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE200 网站编程</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE200-web-programming">SE200 网站编程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE300 后端工程</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE300-backend-engineering">SE300 后端工程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE400 前端工程</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE400-frontend-engineering">SE400 前端工程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE500 多人商业项目实战</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE500-team-commercial-project">SE500 多人商业项目实战</a>
                             </li>
                           </ul>
                         </div>
@@ -136,25 +138,19 @@ $("#header").append(`
                         </div>
 
                         <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">其他课程</h4>
+                          <h4 class="h5 text-uppercase g-font-weight-600">少儿编程兴趣班</h4>
                           <ul class="list-unstyled mb-0">
                           <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">少儿编程兴趣班</a>
+                              <a class="g-color-main g-color-main--hover" href="kids.html">网页设计</a>
                             </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">钢琴陪练/考级</a>
+                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">网站编程</a>
                             </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">动画设计</a>
+                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">计算机科学</a>
                             </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">成人英文教育</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">精英SAT培训</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">学科辅导</a>
+                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
+                              <a class="g-color-main g-color-main--hover" href="#">后端开发</a>
                             </li>
                           </ul>
                         </div>
@@ -166,7 +162,7 @@ $("#header").append(`
                     <a href="/open-class.html" class="btn btn-md u-btn-3d u-btn-blue">报名公开课</a>
 
                   </li>
-                  
+
                 </ul>
               </div>
               <!-- End Navigation -->
@@ -176,7 +172,7 @@ $("#header").append(`
       </header>
 `);
 
-$("#footer").append(`
+$('#footer').append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
@@ -256,7 +252,7 @@ $("#footer").append(`
 
             <div id="mc_embed_signup"><h3 class="text-uppercase g-color-black g-font-weight-600 g-font-size-13 mb-3">邮箱订阅</h3>
               <form action="https://thefuturesphere.us4.list-manage.com/subscribe/post?u=945333b726d217fae0a64f87a&amp;id=0cb33029f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate input-group g-pos-rel g-mb-50 g-mb-30--sm" target="_blank" novalidate>
-                  
+
                   <input type="email" value="" name="EMAIL" placeholder="订阅我们的最新资讯" class="required email form-control g-placeholder-text g-font-size-13 g-brd-gray-light-v2 g-brd-blue--focus g-rounded-30 g-pl-25 g-pr-40 g-py-15" id="mce-EMAIL">
                   <span class="input-group-addon g-pos-abs g-top-0 g-right-0 h-100 g-brd-left-none">
                     <button class="btn w-100 h-100 g-bg-transparent g-color-black g-color-blue--hover g-font-size-12 g-brd-none g-pa-10" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button ">
@@ -274,7 +270,7 @@ $("#footer").append(`
                 <div class="shortcode-html">
                   <img class="img-fluid" src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1577918606/FutureSphere/qr_code.png" alt="QR Code" height:"50">
                 </div>
-              
+
             </div>
           </div>
 
