@@ -230,19 +230,19 @@ $("#footer").append(`
               <!-- Links -->
               <ul class="list-unstyled">
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se100-web-design">SE100 网站设计</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course.html?course=SE100-web-design">SE100 网站设计</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se200-web-programming">SE200 网站编程</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course.html?course=SE200-web-programming">SE200 网站编程</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se300-backend-engineering">SE300 后端工程</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course.html?course=SE300-backend-engineering">SE300 后端工程</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se400-frontend-engineering">SE400 前端工程</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course.html?course=SE400-frontend-engineering">SE400 前端工程</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course/se500-team-commercial-project">SE500 多人商业项目实战</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="/course.html?course=SE500-team-commercial-project">SE500 多人商业项目实战</a>
                 </li>
               </ul>
               <!-- End Links -->
