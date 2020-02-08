@@ -100,20 +100,20 @@ $('#header').append(`
                           <h4 class="h5 g-font-weight-600">五大旗舰课程</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">SE100 网站设计</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE100-web-design">SE100 网站设计</a>
                             </li>
 
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE200 网站编程</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE200-web-programming">SE200 网站编程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE300 后端工程</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE300-backend-engineering">SE300 后端工程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE400 前端工程</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE400-frontend-engineering">SE400 前端工程</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE500 多人商业项目实战</a>
+                              <a class="g-color-main g-color-main--hover" href="/course.html?course=SE500-team-commercial-project">SE500 多人商业项目实战</a>
                             </li>
                           </ul>
                         </div>
