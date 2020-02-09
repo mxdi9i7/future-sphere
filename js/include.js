@@ -1,4 +1,4 @@
-$("#topBar").append(`
+$('#topBar').append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
@@ -25,7 +25,7 @@ $("#topBar").append(`
       </div>
 `);
 $("#header").append(`
-      <header 
+      <header
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
         <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10"
@@ -171,7 +171,7 @@ $("#header").append(`
       </header>
 `);
 
-$("#footer").append(`
+$('#footer').append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
