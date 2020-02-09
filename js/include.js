@@ -17,15 +17,15 @@ $('#topBar').append(`
               <i class="fa fa-globe g-valign-middle g-mr-5"></i>
               <a href="https://www.google.com/maps/place/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F+The+Future+Sphere/@40.7488988,-73.9410181,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bf99fefe27:0xd753f77b894b9474!8m2!3d40.7488948!4d-73.9388294" target="_blank" style="color: #fff">28-07 Jackson Ave. 8FL Long Island City, NY 11101</a>
             </div>
-<div class="col-auto g-px-15">
+            <div class="col-auto g-px-15">
               <a target="_blank" href="https://score.thefuturesphere.com"><i class="fas fa-user-graduate"></i>学生中心</a>
             </div>
           </div>
         </div>
       </div>
 `);
-$('#header').append(`
-      <header id="js-header"
+$("#header").append(`
+      <header
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
         <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10"
@@ -72,6 +72,11 @@ $('#header').append(`
                    <li class="nav-item g-mx-20--lg">
                     <a href="/career-program.html" class="nav-link px-0">
                       就业保证计划
+                    </a>
+                  </li>
+                  <li class="nav-item g-mx-20--lg">
+                    <a href="/kids.html" class="nav-link px-0">
+                      少儿编程兴趣班
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
@@ -139,20 +144,14 @@ $('#header').append(`
 
                         <div class="col-lg-4">
                           <h4 class="h5 text-uppercase g-font-weight-600">少儿编程兴趣班</h4>
-                          <ul class="list-unstyled mb-0">
-                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="kids.html">网页设计</a>
-                            </li>
-                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">网站编程</a>
-                            </li>
-                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">计算机科学</a>
-                            </li>
-                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">后端开发</a>
-                            </li>
-                          </ul>
+                          <img
+                          style="margin:20px 0;"
+                            class="img-fluid g-rounded-10"
+                            width="200px"
+                            src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1581276236/FutureSphere/assets/1490568812513991.jpg"
+                            alt="Image Description"
+                          />
+                          <a style="display:block;" href="/kids.html">了解更多</a>
                         </div>
                       </div>
                     </div>
