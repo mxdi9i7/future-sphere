@@ -4,10 +4,10 @@ import instructorData from '../data/instructors.js';
 import faqs from '../data/faq.js';
 
 const renderCourseData = async () => {
-	console.log(coursesData);
-	for (let i = 0; i < coursesData.length; i++) {
-		const data = coursesData[i];
-		$('#courses').append(`
+  console.log(coursesData);
+  for (let i = 0; i < coursesData.length; i++) {
+    const data = coursesData[i];
+    $('#courses').append(`
         <div class="col-sm-12 col-md-6 col-lg-4 g-mb-30">
           <article class="text-center g-bg-white">
 
@@ -42,21 +42,21 @@ const renderCourseData = async () => {
             <footer class="d-flex align-items-center">
               <div class="d-block">
                 <a class="btn btn-md u-btn-primary u-btn-3d g-font-weight-600 g-font-size-11 text-uppercase"
-                    href="/course/${data.slug}">了解课程</a>
+                    href="/course.html?course=${data.slug}">了解课程</a>
               </div>
             </footer>
           </div>
           </article>
           </div>
         `);
-	}
+  }
 };
 
 const renderTracksData = () => {
-	tracksData.forEach(data => {
-		$('#tracks').append(`
+  tracksData.forEach(data => {
+    $('#tracks').append(`
       <div class="col-lg-4 g-mb-30">
-        
+
         <article class="u-block-hover">
           <figure class="u-bg-overlay g-bg-black-gradient-opacity-v1--after" style="min-height:350px; width: 100%">
             <img alt="Image Description"
@@ -72,11 +72,9 @@ const renderTracksData = () => {
               text-uppercase rounded-0" href="#">${data.courses[1]}</a>
             <a class="btn btn-sm g-bg-white g-color-black text-uppercase rounded-0"
               href="#">${data.courses[2]}</a>
-              <a class="${
-								data.courses[3]
-									? 'btn btn-sm g-bg-white g-color-black text-uppercase rounded-0'
-									: ''
-							}"
+              <a class="${data.courses[3]
+                ? 'btn btn-sm g-bg-white g-color-black text-uppercase rounded-0'
+                : ''}"
               href="#">${data.courses[3] || ''}</a>
           </span>
 
@@ -87,9 +85,7 @@ const renderTracksData = () => {
             </span>
 
             <h3 class="text-uppercase g-font-weight-600 g-mt-5 g-mb-10">
-              <a class="g-color-white g-color-white--hover" href="#">${
-								data.title
-							}</a>
+              <a class="g-color-white g-color-white--hover" href="#">${data.title}</a>
             </h3>
 
             <div class="g-mb-20">
@@ -102,12 +98,12 @@ const renderTracksData = () => {
         </article>
       </div>
     `);
-	});
+  });
 };
 
 const renderInstructors = () => {
-	instructorData.forEach(data => {
-		$('#instructors').append(`
+  instructorData.forEach(data => {
+    $('#instructors').append(`
     <div class="col-sm-4 g-mb-60">
       <figure class="text-center">
         <div
@@ -127,13 +123,13 @@ const renderInstructors = () => {
       </figure>
     </div>
     `);
-	});
+  });
 };
 
 const renderFAQ = () => {
-	faqs.forEach((data, i) => {
-		console.log(data);
-		$('#accordion').append(`
+  faqs.forEach((data, i) => {
+    console.log(data);
+    $('#accordion').append(`
         <div class="card g-brd-none rounded g-mb-20">
           <div
               id="accordion-heading-0${i + 1}"
@@ -172,7 +168,7 @@ const renderFAQ = () => {
           </div>
       </div>
     `);
-	});
+  });
 };
 
 renderCourseData();
