@@ -1,4 +1,4 @@
-$("#topBar").append(`
+$('#topBar').append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
@@ -22,7 +22,7 @@ $("#topBar").append(`
         </div>
       </div>
 `);
-$("#header").append(`
+$('#header').append(`
       <header id="js-header"
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -82,86 +82,6 @@ $("#header").append(`
                       常见问题
                     </a>
                   </li>
-                  <li class="hs-has-mega-menu nav-item g-mx-20--lg" data-animation-in="fadeIn"
-                    data-animation-out="fadeOut" data-position="right">
-                    <a id="mega-menu-label-5" class="nav-link g-px-0 g-color-blue" href="#"
-                      aria-haspopup="true" aria-expanded="false">课程介绍
-                      <i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-5"></i>
-                    </a>
-
-                    <!-- Mega Menu -->
-                    <div
-                      class="w-100 hs-mega-menu u-shadow-v11 g-text-transform-none g-font-weight-400 g-brd-top g-brd-blue g-brd-top-2 g-bg-white g-pa-30 g-mt-17 g-mt-7--lg--scrolling animated hs-position-right fadeOut"
-                      aria-labelledby="mega-menu-label-5" style="display: none;">
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">五大旗舰课程</h4>
-                          <ul class="list-unstyled mb-0">
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="/course.html?course=web-programming-1">SE100 网站设计</a>
-                            </li>
-
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE200 网站编程</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE300 后端工程</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE400 前端工程</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">SE500 多人商业项目实战</a>
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">三大核心路线</h4>
-                          <ul class="list-unstyled mb-0">
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-前端 |
-                                Front-End Software Engineer</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-后端 |
-                                Back-End Software Engineer</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-全栈 |
-                                Full-Stack Software Engineer</a>
-                            </li>
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div class="col-lg-4">
-                          <h4 class="h5 text-uppercase g-font-weight-600">其他课程</h4>
-                          <ul class="list-unstyled mb-0">
-                          <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">少儿编程兴趣班</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">钢琴陪练/考级</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">动画设计</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">成人英文教育</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">精英SAT培训</a>
-                            </li>
-                            <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">学科辅导</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End Mega Menu -->
-                  </li>
                   <li class="nav-item">
                     <a href="/open-class.html" class="btn btn-md u-btn-3d u-btn-blue">报名公开课</a>
 
@@ -176,7 +96,7 @@ $("#header").append(`
       </header>
 `);
 
-$("#footer").append(`
+$('#footer').append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
