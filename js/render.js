@@ -128,7 +128,6 @@ const renderInstructors = () => {
 
 const renderFAQ = () => {
   faqs.forEach((data, i) => {
-    console.log(data);
     $('#accordion').append(`
         <div class="card g-brd-none rounded g-mb-20">
           <div
