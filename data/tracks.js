@@ -19,6 +19,27 @@ export const techStacks = {
       "JavaScript是一种高级的、解释型的编程语言。JavaScript是一门基于原型、函数先行的语言，是一门多范式的语言，它支持面向对象编程，命令式编程，以及函数式编程。它提供语法来操控文本、数组、日期以及正则表达式等。",
     image:
       "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582091433/FutureSphere/assets/javascript-36f5949a45.png"
+  },
+  NodeJS: {
+    title: "Node.js",
+    desc:
+      "Node.js 是能够在服务器端运行 JavaScript 的开放源代码、跨平台 JavaScript 运行环境。Node.js大部分基本模块都用JavaScript语言编写。在Node.js出现之前，JavaScript通常作为客户端程序设计语言使用，以JavaScript写出的程序常在用户的浏览器上运行。Node.js的出现使JavaScript也能用于服务端编程。Node.js含有一系列内置模块，使得程序可以脱离Apache HTTP Server或IIS，作为独立服务器运行。",
+    image:
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582140764/FutureSphere/assets/nodejs-development-services.png"
+  },
+  MongoDB: {
+    title: "MongoDB",
+    desc:
+      "MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。",
+    image:
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582140764/FutureSphere/assets/mongodb.png"
+  },
+  React: {
+    title: "React",
+    desc:
+      "React，是一个为数据提供渲染为HTML视图的开源JavaScript 库。React视图通常采用包含以自定义HTML标记规定的其他组件的组件渲染。React为程序员提供了一种子组件不能直接影响外层组件的模型，数据改变时对HTML文档的有效更新，和现代单页应用中组件之间干净的分离。",
+    image:
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582140764/FutureSphere/assets/1200px-React-icon.svg.png"
   }
 };
 const tracksData = [
@@ -35,9 +56,9 @@ const tracksData = [
       "https://res.cloudinary.com/dtgh01qqo/image/upload/v1577908104/FutureSphere/assets/Free_Courses_to_learn_JavaScript-thumb.jpg"
     ],
     numbers: {
-      averageSalary: 128000,
+      averageSalary: 89000,
       missingPositions: 170000,
-      timeToTrain: 4,
+      timeToTrain: 2,
       employmentRate: 100
     },
     techStacks: [techStacks.HTML, techStacks.CSS, techStacks.Javascript],
@@ -63,26 +84,31 @@ const tracksData = [
     description:
       "网站的后端涉及搭建服务器、保存和获取数据，以及用于连接前端的接口。后端工程师关心的是如何提升网站的速度、性能和响应性。",
     id: "backend-engineer",
-    thumbnail:
+    thumbnail: [
       "https://res.cloudinary.com/dtgh01qqo/image/upload/v1578255852/FutureSphere/assets/0_th2x89zHuZmHGsLJ_2.png",
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1577909200/FutureSphere/assets/Nodejs-e1550234793136-cropped.png",
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582140764/FutureSphere/assets/unnamed.png"
+    ],
     numbers: {
-      averageSalary: 12500,
+      averageSalary: 112000,
       missingPositions: 170000,
-      timeToTrain: 4,
+      timeToTrain: 2,
       employmentRate: 100
     },
-    techStacks: ["HTML", "CSS", "Javascript"],
+    techStacks: [techStacks.Javascript, techStacks.NodeJS, techStacks.MongoDB],
     highlight1: {
-      title: "lorem ipsum",
+      title: "服务器搭建",
       desc:
-        "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-      image: ""
+        "课程使用JavaScript语言学习如何运用Node.js开发服务器以及配套的API服务。对后端开发感兴趣的同学可以学习到如何设计软件应用中最常用的比如登录、注册、修改信息、发帖、付款、收藏、点赞、评论等功能。",
+      image:
+        "https://res.cloudinary.com/dtgh01qqo/image/upload/v1577909200/FutureSphere/assets/Nodejs-e1550234793136-cropped.png"
     },
     highlight2: {
-      title: "lorem ipsum",
+      title: "数据库搭建",
       desc:
-        "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-      image: ""
+        "服务器结合数据库模型进行数据的增删查改。这节课还会教你如何编写、维护、并设计一个大型团队可以分享使用的API文档，以及如何在Amazon Web Services（AWS） 云端平台里部署你的服务器和数据库。",
+      image:
+        "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582140764/FutureSphere/assets/unnamed.png"
     }
   },
   {
@@ -92,26 +118,31 @@ const tracksData = [
     description:
       "全栈工程师的技术涵盖了前端和后端的所有工作，可以作为团队里独当一面的角色。",
     id: "fullstack-engineer",
-    thumbnail:
+    thumbnail: [
       "https://res.cloudinary.com/dtgh01qqo/image/upload/v1578255553/FutureSphere/assets/fullstack.png",
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1577908104/FutureSphere/assets/1_TmkeYmFJsoUH4S7u3ri3-w-thumb.jpg",
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1577909200/FutureSphere/assets/Nodejs-e1550234793136-cropped.png"
+    ],
     numbers: {
-      averageSalary: 12500,
+      averageSalary: 125000,
       missingPositions: 170000,
       timeToTrain: 4,
       employmentRate: 100
     },
-    techStacks: [techStacks.HTML, "CSS", "Javascript"],
+    techStacks: [techStacks.Javascript, techStacks.React, techStacks.NodeJS],
     highlight1: {
-      title: "lorem ipsum",
+      title: "前端开发",
       desc:
-        "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-      image: ""
+        "Web前端开发技术主要包括三个要素：HTML、css和JavaScript。前端开发不仅要掌握基本的Web前端开发技术，网站性能优化、SEO和服务器端的基础知识，而且要学会运用各种工具进行辅助开发以及理论层面的知识，包括代码的可维护性、组件的易用性、分层语义模板和浏览器分级支持等。",
+      image:
+        "https://res.cloudinary.com/dtgh01qqo/image/upload/v1577908104/FutureSphere/assets/1_TmkeYmFJsoUH4S7u3ri3-w-thumb.jpg"
     },
     highlight2: {
-      title: "lorem ipsum",
+      title: "后端开发",
       desc:
-        "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-      image: ""
+        "后端开发即“服务器端”开发，主要涉及软件系统“后端”的东西。比如，用于托管网站和保存数据的服务器、放置在后端服务器与浏览器及 App 之间的中间件，它们都属于后端。简单地说，那些你在屏幕上看不到但又被用来为前端提供支持的东西就是后端。",
+      image:
+        "https://res.cloudinary.com/dtgh01qqo/image/upload/v1577909200/FutureSphere/assets/Nodejs-e1550234793136-cropped.png"
     }
   }
 ];
