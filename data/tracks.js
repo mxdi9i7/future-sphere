@@ -18,7 +18,7 @@ export const techStacks = {
     desc:
       "JavaScript是一种高级的、解释型的编程语言。JavaScript是一门基于原型、函数先行的语言，是一门多范式的语言，它支持面向对象编程，命令式编程，以及函数式编程。它提供语法来操控文本、数组、日期以及正则表达式等。",
     image:
-      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582091433/FutureSphere/assets/javascript-36f5949a45.png"
+      "https://res.cloudinary.com/dtgh01qqo/image/upload/v1582410422/FutureSphere/assets/images.png"
   },
   NodeJS: {
     title: "Node.js",
