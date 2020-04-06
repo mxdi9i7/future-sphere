@@ -75,7 +75,7 @@ $("#header").append(`
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
-                    <a href="/kids.html" class="nav-link px-0">
+                    <a href="/kid-python.html" class="nav-link px-0">
                       少儿编程兴趣班
                     </a>
                   </li>
@@ -151,7 +151,7 @@ $("#header").append(`
                             src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1581276236/FutureSphere/assets/1490568812513991.jpg"
                             alt="Image Description"
                           />
-                          <a style="display:block;" href="/kids.html">了解更多</a>
+                          <a style="display:block;" href="/kid-python.html">了解更多</a>
                         </div>
                       </div>
                     </div>
