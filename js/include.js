@@ -1,4 +1,4 @@
-$('#topBar').append(`
+$("#topBar").append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
@@ -18,7 +18,7 @@ $('#topBar').append(`
               <a href="https://www.google.com/maps/place/%E6%9C%AA%E6%9D%A5%E9%A2%86%E5%9F%9F+The+Future+Sphere/@40.7488988,-73.9410181,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bf99fefe27:0xd753f77b894b9474!8m2!3d40.7488948!4d-73.9388294" target="_blank" style="color: #fff">28-07 Jackson Ave. 8FL Long Island City, NY 11101</a>
             </div>
             <div class="col-auto g-px-15">
-              <a target="_blank" href="https://score.thefuturesphere.com"><i class="fas fa-user-graduate"></i>学生中心</a>
+              <a target="_blank" href="https://score.thefuturesphere.com"><i class="fa fa-user-graduate"></i>学生中心</a>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ $("#header").append(`
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
-                    <a href="/kids.html" class="nav-link px-0">
+                    <a href="/kid-python.html" class="nav-link px-0">
                       少儿编程兴趣班
                     </a>
                   </li>
@@ -127,15 +127,15 @@ $("#header").append(`
                           <h4 class="h5 text-uppercase g-font-weight-600">三大核心路线</h4>
                           <ul class="list-unstyled mb-0">
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-前端 |
+                              <a class="g-color-main g-color-main--hover" href="./track.html?=frontend-engineer">软件工程师-前端 |
                                 Front-End Software Engineer</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-后端 |
+                              <a class="g-color-main g-color-main--hover" href="./track.html?=backend-engineer">软件工程师-后端 |
                                 Back-End Software Engineer</a>
                             </li>
                             <li class="g-brd-bottom g-brd-gray-light-v4 g-py-10">
-                              <a class="g-color-main g-color-main--hover" href="#">软件工程师-全栈 |
+                              <a class="g-color-main g-color-main--hover" href="./track.html?=fullstack-engineer">软件工程师-全栈 |
                                 Full-Stack Software Engineer</a>
                             </li>
                             </li>
@@ -151,7 +151,7 @@ $("#header").append(`
                             src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1581276236/FutureSphere/assets/1490568812513991.jpg"
                             alt="Image Description"
                           />
-                          <a style="display:block;" href="/kids.html">了解更多</a>
+                          <a style="display:block;" href="/kid-python.html">了解更多</a>
                         </div>
                       </div>
                     </div>
@@ -171,7 +171,7 @@ $("#header").append(`
       </header>
 `);
 
-$('#footer').append(`
+$("#footer").append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">
@@ -210,13 +210,13 @@ $('#footer').append(`
               <!-- Links -->
               <ul class="list-unstyled">
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/tracks/frontend-engineer">前端工程师</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="./track.html?=frontend-engineer">前端工程师</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/tracks/backend-engineer">后端工程师</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="./track.html?=backend-engineer">后端工程师</a>
                 </li>
                 <li class="g-py-6">
-                  <a class="u-link-v5 g-color-gray-dark-v5" href="/tracks/fullstack-engineer">全栈工程师</a>
+                  <a class="u-link-v5 g-color-gray-dark-v5" href="./track.html?=fullstack-engineer">全栈工程师</a>
                 </li>
               </ul>
               <!-- End Links -->
