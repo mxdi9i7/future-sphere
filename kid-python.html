@@ -73,9 +73,18 @@
       <div id="topBar"></div>
       <header id="header"></header>
 
+      
+
        <!-- Section Content -->
        <section id="home" class="g-bg-img-hero g-pos-rel u-bg-overlay g-bg-darkblue-opacity-0_7--after g-pt-150" style="background-image: url(https://papers.co/wallpaper/papers.co-va26-noir-2-dark-pattern-40-wallpaper.jpg);">
-        <div class="container g-max-width-750 u-bg-overlay__inner g-color-white g-mb-60">
+        <div id="pay" class="col-sm-6 col-md-5 text-left g-max-width-600 g-bg-white g-overflow-y-auto g-pa-20" style="display: none;">
+        <button type="button" class="close" onclick="Custombox.modal.close();">
+          <i class="hs-icon hs-icon-close"></i>
+        </button>
+        <h4 class="g-mb-20">支付方式</h4>
+        <img class="img-fluid g-rounded-3" src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1586272084/FutureSphere/Image_from_iOS.jpg" alt="pay method">
+      </div>
+      <div class="container g-max-width-750 u-bg-overlay__inner g-color-white g-mb-60">
           <!-- Countdown v4 -->
           <div class="js-countdown text-center text-uppercase u-countdown-v4 g-mb-40 g-mb-70--md"
                data-end-date="2020/12/31"
@@ -137,10 +146,11 @@
 
             <div class="col-md-3 text-center text-md-right">
               <div style="display: inline-block;background-color: #3398dc;color: #FFF;text-align: center;font-size: 22px;height: 50px;width: 70px; line-height: 50px; position: relative;top: 5px;left: 5px; font-weight: 900;">$198</div>
-              <a style="display: inline-block;" class="btn btn-lg text-uppercase u-btn-white g-font-weight-700 g-font-size-11 g-color-white--hover g-bg-primary--hover g-brd-none rounded-0 g-py-15 g-px-13" href="#">现在报名</a>
-            </div>
+              <a style="display: inline-block;" class="btn btn-lg text-uppercase u-btn-white g-font-weight-700 g-font-size-11 g-color-white--hover g-bg-primary--hover g-brd-none rounded-0 g-py-15 g-px-13" href="#pay" data-modal-target="#pay" data-modal-effect="fadein">现在报名</a>
+          </div>
           </div>
         </div>
+        
 
         <div class="container u-bg-overlay__inner g-bottom-minus-70 px-0">
           <div class="row u-shadow-v23 g-theme-bg-blue-dark-v2 mx-0">
@@ -715,6 +725,12 @@
       document.getElementById("t_s").innerHTML = s; 
       } 
       setInterval(getRTime,1000); 
+      </script>
+      <script >
+        $(document).on('ready', function () {
+          // initialization of popups
+          $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+        });
       </script>
   </body>
 
