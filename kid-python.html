@@ -132,7 +132,7 @@
 				id="home"
 				class="g-bg-img-hero g-pos-rel u-bg-overlay g-bg-darkblue-opacity-0_7--after g-pt-150"
 				style="
-					background-image: url(https://papers.co/wallpaper/papers.co-va26-noir-2-dark-pattern-40-wallpaper.jpg);
+					background-image: url(https://res.cloudinary.com/dtgh01qqo/image/upload/v1587769843/FutureSphere/cover-0322-after-two-decades-of-programming-i-use-rails-Waldek_Newsletter-f66eea416e2cbd32138cd7c43c01c1a9-1024x536.png);
 				"
 			>
 				<div
@@ -148,6 +148,20 @@
 						<i class="hs-icon hs-icon-close"></i>
 					</button>
 					<h4 class="g-mb-20">支付方式</h4>
+					<button
+						style="
+							background-color: #6772e5;
+							color: #fff;
+							padding: 8px 12px;
+							border: 0;
+							border-radius: 4px;
+							font-size: 1em;
+						"
+						id="checkout-button-sku_H9u967okdz9GbA"
+						role="link"
+					>
+						信用卡支付
+					</button>
 					<img
 						class="img-fluid g-rounded-3"
 						src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1586272084/FutureSphere/Image_from_iOS.jpg"
@@ -155,6 +169,7 @@
 					/>
 				</div>
 				<div
+					style="background-color: rgba(0, 0, 0, 0.7); padding: 30px;"
 					class="container g-max-width-750 u-bg-overlay__inner g-color-white g-mb-60"
 				>
 					<!-- Countdown v4 -->
@@ -293,6 +308,7 @@
 								data-modal-effect="fadein"
 								>现在报名</a
 							>
+							<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
 						</div>
 					</div>
 				</div>
@@ -1225,10 +1241,6 @@
 		<script src="./assets/js/components/hs.select.js"></script>
 		<script src="./assets/js/components/hs.modal-window.js"></script>
 		<script src="./assets/js/components/hs.markup-copy.js"></script>
-
-		<script src="./assets/style-switcher/vendor/cookiejs/jquery.cookie.js"></script>
-		<script src="./assets/style-switcher/vendor/spectrum/spectrum.js"></script>
-		<script src="./assets/style-switcher/style-switcher.js"></script>
 		<!-- End Scripts -->
 		<!-- End Style Switcher -->
 		<script type="module" src="js/graph.js"></script>
@@ -1256,6 +1268,48 @@
 				// initialization of popups
 				$.HSCore.components.HSModalWindow.init('[data-modal-target]');
 			});
+		</script>
+
+		<div id="error-message"></div>
+		<!-- Load Stripe.js on your website. -->
+		<script src="https://js.stripe.com/v3"></script>
+
+		<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+
+		<div id="error-message"></div>
+
+		<script>
+			(function () {
+				var stripe = Stripe('pk_live_jAmQ75uD1SUVkXNRZh20fVqy00mpqA7B6K');
+
+				var checkoutButton = document.getElementById(
+					'checkout-button-sku_H9u967okdz9GbA',
+				);
+				checkoutButton.addEventListener('click', function () {
+					// When the customer clicks on the button, redirect
+					// them to Checkout.
+					stripe
+						.redirectToCheckout({
+							items: [{ sku: 'sku_H9u967okdz9GbA', quantity: 1 }],
+
+							// Do not rely on the redirect to the successUrl for fulfilling
+							// purchases, customers may not always reach the success_url after
+							// a successful payment.
+							// Instead use one of the strategies described in
+							// https://stripe.com/docs/payments/checkout/fulfillment
+							successUrl: 'https://thefuturesphere.com/success',
+							cancelUrl: 'https://thefuturesphere.com/canceled',
+						})
+						.then(function (result) {
+							if (result.error) {
+								// If `redirectToCheckout` fails due to a browser or network
+								// error, display the localized error message to your customer.
+								var displayError = document.getElementById('error-message');
+								displayError.textContent = result.error.message;
+							}
+						});
+				});
+			})();
 		</script>
 	</body>
 </html>
