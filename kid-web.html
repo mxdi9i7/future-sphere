@@ -160,7 +160,7 @@
 							font-size: 1em;
 							margin: 15px 0;
 						"
-						id="checkout-button-sku_H9u967okdz9GbA"
+						id="checkout-button-sku_HGvjmATnRfg9v2"
 						role="link"
 					>
 						信用卡支付
@@ -254,7 +254,7 @@
 									</p>
 									<h3 class="h3 g-font-size-15 g-color-white mb-0">
 										5:00 P.M. <br />
-										 1 June, 2020
+										1 June, 2020
 									</h3>
 								</div>
 							</div>
@@ -1311,14 +1311,14 @@
 				var stripe = Stripe('pk_live_jAmQ75uD1SUVkXNRZh20fVqy00mpqA7B6K');
 
 				var checkoutButton = document.getElementById(
-					'checkout-button-sku_H9u967okdz9GbA',
+					'checkout-button-sku_HGvjmATnRfg9v2',
 				);
 				checkoutButton.addEventListener('click', function () {
 					// When the customer clicks on the button, redirect
 					// them to Checkout.
 					stripe
 						.redirectToCheckout({
-							items: [{ sku: 'sku_H9u967okdz9GbA', quantity: 1 }],
+							items: [{ sku: 'sku_HGvjmATnRfg9v2', quantity: 1 }],
 
 							// Do not rely on the redirect to the successUrl for fulfilling
 							// purchases, customers may not always reach the success_url after
