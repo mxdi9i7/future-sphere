@@ -1,4 +1,4 @@
-$("#topBar").append(`
+$('#topBar').append(`
    <div
         class="u-header__section u-header__section--hidden u-header__section--dark g-bg-black g-py-7">
         <div class="container">
@@ -24,7 +24,7 @@ $("#topBar").append(`
         </div>
       </div>
 `);
-$("#header").append(`
+$('#header').append(`
       <header
         class="u-header u-header--static--lg u-header--show-hide--lg u-header--change-appearance--lg"
         data-header-fix-moment="500" data-header-fix-effect="slide">
@@ -76,7 +76,12 @@ $("#header").append(`
                   </li>
                   <li class="nav-item g-mx-20--lg">
                     <a href="/kid-python.html" class="nav-link px-0">
-                      少儿编程兴趣班
+                      少儿Python
+                    </a>
+                  </li>
+                  <li class="nav-item g-mx-20--lg">
+                    <a href="/kid-web.html" class="nav-link px-0">
+                      少儿网站设计
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
@@ -151,7 +156,10 @@ $("#header").append(`
                             src="https://res.cloudinary.com/dtgh01qqo/image/upload/v1581276236/FutureSphere/assets/1490568812513991.jpg"
                             alt="Image Description"
                           />
-                          <a style="display:block;" href="/kid-python.html">了解更多</a>
+                          <br />
+                          <a href="/kid-python.html">2周Python课</a>
+                          <span> | </span>
+                          <a  href="/kid-web.html">8周网站设计课</a>
                         </div>
                       </div>
                     </div>
@@ -171,7 +179,7 @@ $("#header").append(`
       </header>
 `);
 
-$("#footer").append(`
+$('#footer').append(`
   <footer id="contact-section" class="container">
           <div class="row g-pt-80">
             <div class="col-sm-6 col-lg-3 g-mb-50">

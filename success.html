@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Title -->
+		<title>Payment Success</title>
+
+		<!-- Required Meta Tags Always Come First -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="./favicon.ico" />
+		<!-- Google Fonts -->
+		<link
+			rel="stylesheet"
+			href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik"
+		/>
+		<!-- CSS Global Compulsory -->
+		<link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.min.css" />
+		<!-- CSS Unify -->
+		<link rel="stylesheet" href="./assets/css/unify-core.css" />
+		<link rel="stylesheet" href="./assets/css/unify-components.css" />
+		<link rel="stylesheet" href="./assets/css/unify-globals.css" />
+
+		<!-- CSS Customization -->
+		<link rel="stylesheet" href="./assets/css/custom.css" />
+	</head>
+
+	<body>
+		<main
+			class="g-min-height-100vh g-flex-centered g-bg-size-cover g-bg-cover g-bg-bluegray-opacity-0_3--after g-pa-15"
+			style="
+				background-image: url(https://res.cloudinary.com/dtgh01qqo/image/upload/v1577467857/FutureSphere/wework/LIC_GOT_EXTERIOR.jpg);
+				filter: brightness(90%);
+			"
+		></main>
+		<div
+			style="
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				background-color: rgba(0, 0, 0, 0.5);
+				padding: 25px;
+			"
+			class="text-center g-max-width-700 g-flex-centered-item g-z-index-1 g-color-white"
+		>
+			<h1 class="display-3 g-mb-30">Thank you</h1>
+			<p class="g-font-size-22 g-mb-50">
+				Your payment was successful, a receipt was sent to your contact email.
+				We hope to see you in class soon!
+			</p>
+
+			<a href="/index.html" class="btn btn-md u-btn-gradient-v2 g-mr-10 g-mb-15"
+				>Back To Home</a
+			>
+		</div>
+
+		<!-- JS Global Compulsory -->
+		<script src="./assets/vendor/jquery/jquery.min.js"></script>
+		<script src="./assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+		<script src="./assets/vendor/popper.js/popper.min.js"></script>
+		<script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- JS Implementing Plugins -->
+		<script src="./assets/vendor/appear.js"></script>
+		<script src="./assets/vendor/jquery.countdown.min.js"></script>
+
+		<!-- JS Unify -->
+		<script src="./assets/js/hs.core.js"></script>
+		<script src="./assets/js/components/hs.countdown.js"></script>
+
+		<!-- JS Customization -->
+		<script src="./assets/js/custom.js"></script>
+
+		<!-- JS Plugins Init. -->
+		<script>
+			$(document).on('ready', function () {
+				// initialization of countdowns
+				var countdowns = $.HSCore.components.HSCountdown.init('.js-countdown', {
+					yearsElSelector: '.js-cd-years',
+					monthElSelector: '.js-cd-month',
+					daysElSelector: '.js-cd-days',
+					hoursElSelector: '.js-cd-hours',
+					minutesElSelector: '.js-cd-minutes',
+					secondsElSelector: '.js-cd-seconds',
+				});
+			});
+		</script>
+	</body>
+</html>

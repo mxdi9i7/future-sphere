@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<!-- Title -->
-		<title>未来领域 | 少儿Python班</title>
+		<title>未来领域 | 少儿网站设计班</title>
 
 		<!-- Required Meta Tags Always Come First -->
 		<meta charset="utf-8" />
@@ -13,7 +13,7 @@
 		<meta content="ie=edge" http-equiv="x-ua-compatible" />
 		<meta
 			name="keyword"
-			content="未来领域, 软件编程, 编程培训, 专业编程培训, 编程, 网页开发, 就业保证培训, 纽约市编程培训, 职业转型, Coding Bootcamp, New York City Coding Bootcamp, NYC Coding Bootcamp"
+			content="未来领域, 儿童培训, 儿童编程, 少儿编程, 网站设计, 软件编程, 编程培训, 专业编程培训, 编程, 网页开发, 就业保证培训, 纽约市编程培训, 职业转型, Coding Bootcamp, New York City Coding Bootcamp, NYC Coding Bootcamp"
 		/>
 		<meta
 			name="description"
@@ -160,7 +160,7 @@
 							font-size: 1em;
 							margin: 15px 0;
 						"
-						id="checkout-button-sku_H9u967okdz9GbA"
+						id="checkout-button-sku_HGvjmATnRfg9v2"
 						role="link"
 					>
 						信用卡支付
@@ -230,12 +230,12 @@
 					<h2
 						class="text-center text-uppercase h2 g-font-weight-700 g-font-size-40 g-font-size-60--md g-color-white g-mb-30 g-mb-70--md"
 					>
-						2020 Python<br/>少儿兴趣班<br/>(五班)
+						2020 网站设计少儿班
 					</h2>
 
 					<div class="row">
 						<div
-							class="col-sm-6 col-md-4 text-center text-md-left g-mb-30 g-mb-0--md"
+							class="col-sm-6 col-md-3 text-center text-md-left g-mb-30 g-mb-0--md"
 						>
 							<div class="media">
 								<div
@@ -253,14 +253,15 @@
 										>
 									</p>
 									<h3 class="h3 g-font-size-15 g-color-white mb-0">
-										20:00, 20 July, 2020
+										5:00 P.M. <br />
+										1 June, 2020
 									</h3>
 								</div>
 							</div>
 						</div>
 
 						<div
-							class="col-sm-6 col-md-5 text-center text-md-left g-mb-30 g-mb-0--md"
+							class="col-sm-6 col-md-3 text-center text-md-left g-mb-30 g-mb-0--md"
 						>
 							<div class="media">
 								<div
@@ -283,6 +284,30 @@
 								</div>
 							</div>
 						</div>
+						<div
+							class="col-sm-6 col-md-3 text-center text-md-left g-mb-30 g-mb-0--md"
+						>
+							<div class="media">
+								<div
+									class="media-left d-flex align-self-center g-hidden-sm-down g-mr-20"
+								>
+									<i
+										class="fa fa-map-marker g-font-size-27 g-color-white-opacity-0_5"
+									></i>
+								</div>
+
+								<div class="media-body text-uppercase">
+									<p class="g-mb-5">
+										<strong class="g-font-size-14 g-color-white-opacity-0_5"
+											>How Long</strong
+										>
+									</p>
+									<h3 class="h3 g-font-size-15 g-color-white mb-0">
+										8个星期
+									</h3>
+								</div>
+							</div>
+						</div>
 
 						<div class="col-md-3 text-center text-md-right">
 							<div
@@ -301,7 +326,7 @@
 									font-weight: 900;
 								"
 							>
-								$268
+								$980
 							</div>
 							<a
 								style="display: inline-block;"
@@ -1250,7 +1275,7 @@
 		<script src="js/include.js"></script>
 		<script type="text/javascript">
 			function getRTime() {
-				var EndTime = new Date('2020/07/20 20:00:00'); //截止时间
+				var EndTime = new Date('2020/06/01 17:00:00'); //截止时间
 				var NowTime = new Date();
 				var t = EndTime.getTime() - NowTime.getTime();
 
@@ -1286,14 +1311,14 @@
 				var stripe = Stripe('pk_live_jAmQ75uD1SUVkXNRZh20fVqy00mpqA7B6K');
 
 				var checkoutButton = document.getElementById(
-					'checkout-button-sku_H9u967okdz9GbA',
+					'checkout-button-sku_HGvjmATnRfg9v2',
 				);
 				checkoutButton.addEventListener('click', function () {
 					// When the customer clicks on the button, redirect
 					// them to Checkout.
 					stripe
 						.redirectToCheckout({
-							items: [{ sku: 'sku_H9u967okdz9GbA', quantity: 1 }],
+							items: [{ sku: 'sku_HGvjmATnRfg9v2', quantity: 1 }],
 
 							// Do not rely on the redirect to the successUrl for fulfilling
 							// purchases, customers may not always reach the success_url after
