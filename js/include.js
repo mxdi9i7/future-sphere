@@ -80,11 +80,6 @@ $('#header').append(`
                     </a>
                   </li>
                   <li class="nav-item g-mx-20--lg">
-                    <a href="/kid-web.html" class="nav-link px-0">
-                      少儿网站设计
-                    </a>
-                  </li>
-                  <li class="nav-item g-mx-20--lg">
                     <a href="/contact.html" class="nav-link px-0">
                       联系我们
                     </a>
@@ -158,8 +153,6 @@ $('#header').append(`
                           />
                           <br />
                           <a href="https://class.thefuturesphere.com/python-turtle">2周Python课</a>
-                          <span> | </span>
-                          <a  href="/kid-web.html">8周网站设计课</a>
                         </div>
                       </div>
                     </div>
